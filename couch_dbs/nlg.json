@@ -1,10 +1,133 @@
 [
     {
-        "match": "some(semantic_expression_of_a_move)",
-        "utterance": "some utterance"
+        "match": "greet",
+        "utterance": "Hi, I am Shelley, your tortoise care assistant. What can I help you with today?"
     },
     {
-        "match": "another(semantic_expression_of_a_move)",
+        "match": "request(prep_bath)",
         "utterance": "another utterance"
-    }
+    },
+    {
+        "match": "request(give_bath)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(fix_terrarium)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(do_health_check)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(finish_bathing)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(prep_bath_details)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(give_bath_details)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(fix_terrarium_details)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(do_health_check_details)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(finish_bathing_details)",
+        "utterance": "another utterance"
+    },
+
+    {
+        "match": "request(check_lights)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(clean_leftovers)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(wash_bowls)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(give_food)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(give_supplements)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(check_lights_details)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(clean_leftovers_details)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(wash_bowls_details)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(give_food_details)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(give_calcium)",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "request(give_pellets)",
+        "utterance": "another utterance"
+    },
+
+    {
+        "match": "report(action_status(prep_bath, done))",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "report(action_status(give_bath, done))",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "report(action_status(fix_terrarium, done))",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "report(action_status(do_health_check, done))",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "report(action_status(finish_bathing, done))",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "report(action_status(check_lights, done))",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "report(action_status(clean_leftovers, done))",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "report(action_status(wash_bowls, done))",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "report(action_status(give_food, done))",
+        "utterance": "another utterance"
+    },
+    {
+        "match": "report(action_status(give_supplements, done))",
+        "utterance": "another utterance"
+    }   
+    
 ]
