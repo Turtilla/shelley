@@ -21,4 +21,116 @@
     </one-of>
   </action>
 
+  <!--asking about plant-->
+  <question speaker="user" predicate="plant_edibility" type="alt_question">
+    <one-of>
+      <item>i want to know if a plant is edible</item>
+      <item>i want to know if <slot predicate="wh_plant"/> is edible</item>
+      <item>i would like to know if a plant is edible</item>
+      <item>i would like to know if <slot predicate="wh_plant"/> is edible</item>
+      <item>tell me if a plant is edible</item>
+      <item>tell me if <slot predicate="wh_plant"/> is edible</item>
+      <item>can tortoises eat <slot predicate="wh_plant"/></item>
+      <item>can a tortoise eat <slot predicate="wh_plant"/></item>
+      <item>can my tortoise eat <slot predicate="wh_plant"/></item>
+      <item>is <slot predicate="wh_plant"/> edible</item>
+      <item>can <slot predicate="wh_plant"/> be given to a tortoise</item>
+      <item>can <slot predicate="wh_plant"/> be fed to a tortoise</item>
+      <item>can <slot predicate="wh_plant"/> be given to tortoises</item>
+      <item>can <slot predicate="wh_plant"/> be fed to tortoises</item>
+      <item>can I give my tortoise <slot predicate="wh_plant"/></item>
+      <item>tell me about a plant</item>
+      <item>tell me about <slot predicate="wh_plant"/>
+      <item>edibility</item>
+      <item>plant</item>
+    </one-of>
+  </question>
+
+  <!--user answers-->
+  <answer speaker="user">
+    <one-of>
+      <item> <slot predicate="wh_plant"/> </item>
+      <item> it's <slot predicate="wh_plant"/> </item>
+      <item> <slot predicate="wh_day"/> </item>
+      <item> it's <slot predicate="wh_day"/> </item>
+    </one-of>
+  </answer>
+
+  <!--individuals-->
+  <individual name="dandelion">
+    <one-of>
+      <item>dandelion</item>
+    </one-of>
+  </individual>
+
+  <individual name="apple">
+    <one-of>
+      <item>apple</item>
+    </one-of>
+  </individual>
+
+  <individual name="lettuce">
+    <one-of>
+      <item>lettuce</item>
+    </one-of>
+  </individual>
+
+  <individual name="monday">
+    <one-of>
+      <item>monday</item>
+    </one-of>
+  </individual>
+
+  <individual name="tuesday">
+    <one-of>
+      <item>tuesday</item>
+    </one-of>
+  </individual>
+
+  <individual name="wednesday">
+    <one-of>
+      <item>wednesday</item>
+    </one-of>
+  </individual>
+
+  <individual name="thursday">
+    <one-of>
+      <item>thursday</item>
+    </one-of>
+  </individual>
+
+  <individual name="friday">
+    <one-of>
+      <item>friday</item>
+    </one-of>
+  </individual>
+
+  <individual name="saturday">
+    <one-of>
+      <item>saturday</item>
+    </one-of>
+  </individual>
+
+  <individual name="sunday">
+    <one-of>
+      <item>sunday</item>
+    </one-of>
+  </individual>
+
+  <!--system questions-->
+  <question speaker="system" predicate="wh_plant" type="wh_question">
+    what plant do you want to know about
+  </question>
+
+  <question speaker="system" predicate="wh_day" type="wh_question">
+    let's see, what day is it today
+  </question>
+
+  <!--system answers-->
+  <!--the rest is generated in http-service-->
+  <answer speaker="system" predicate="plant_edibility">
+    <slot predicate="plant_edibility"/>
+  </answer>
+
+
 </grammar>
