@@ -1,9 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <domain name="ShelleyDomain" is_super_domain="true">
+  <!--see if it works with 3 alternatives, otherwise split into
+  schedule and edibility first-->
   <goal type="perform" action="top">
     <plan>
       <forget_all/>
-      <findout type="goal"/>
+      <findout type="alt_question">
+        <alt>
+          <perform action="daily_schedule"/>
+        </alt>
+        <alt>
+          <perform action="bathing_schedule"/>
+        </alt>
+        <alt>
+          <resolve type="wh_question" predicate="plant_edibility"/>
+        </alt>
+      </findout>
     </plan>
   </goal>
+
+  <!--resolve if a plant is edible; make a function to get the list of possible plants!!!-->
+  <goal type="resolve" question_type="wh_question" predicate="plant_edibility">
+    <plan>
+      <findout type="wh_question" predicate="wh_plant"/>
+      <invoke_service_query type="wh_question" predicate="plant_edibility"/>
+    </plan>
+  </goal>
+
+  <!--bath schedule stuff-->
+  <goal type="perform" action="bathing_schedule">
+    <plan>
+      <!--assume_shared>
+        <proposition predicate="current_recipe" value="chicken_recipe"/>
+      </assume_shared-->
+      <get_done action="prep_bath"/>
+      <get_done action="give_bath"/>
+      <get_done action="fix_terrarium"/>
+      <get_done action="do_health_check"/>
+      <get_done action="finish_bathing"/>
+      <inform>
+        <proposition predicate="finished" value="bathing_finished"/>
+      </inform>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="prep_bath">
+    <plan>
+      <get_done action="prep_bath_details"/>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="give_bath">
+    <plan>
+      <get_done action="give_bath_details"/>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="fix_terrarium">
+    <plan>
+      <get_done action="fix_terrarium_details"/>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="do_health_check">
+    <plan>
+      <get_done action="do_health_check_details"/>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="finish_bathing">
+    <plan>
+      <get_done action="finish_bathing_details"/>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+  
+  <!--daily schedule stuff-->
+  <goal type="perform" action="daily_schedule">
+    <plan>
+      <!--assume_shared>
+        <proposition predicate="current_recipe" value="chicken_recipe"/>
+      </assume_shared-->
+      <get_done action="check_lights"/>
+      <get_done action="clean_leftovers"/>
+      <get_done action="wash_bowls"/>
+      <get_done action="give_food"/>
+      <get_done action="give_supplements"/>
+      <inform>
+        <proposition predicate="finished" value="daily_finished"/>
+      </inform>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="check_lights">
+    <plan>
+      <get_done action="check_lights_details"/>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="clean_leftovers">
+    <plan>
+      <get_done action="clean_leftovers_details"/>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+  
+  <goal type="perform" action="wash_bowls">
+    <plan>
+      <get_done action="wash_bowls_details"/>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="give_food">
+    <plan>
+      <get_done action="give_food_details"/>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <goal type="perform" action="give_supplements">
+    <plan>
+      <findout type="wh_question" predicate="day"/>
+      <if> 
+        <is_private_belief_or_shared_commitment predicate="day" value="monday"/>
+        <then>
+          <get_done action="give_calcium"/>
+        </then>
+        <else>
+          <get_done action="give_pellets"/>
+        </else>
+      </if>
+      <signal_action_completion/>
+    </plan>
+  </goal>
+
+  <!--other questions TODO LATER-->
+
 </domain>
