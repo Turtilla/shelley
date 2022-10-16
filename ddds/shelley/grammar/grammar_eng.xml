@@ -21,6 +21,44 @@
     </one-of>
   </action>
 
+  <!--actions-->
+  <action name="daily_schedule">
+  <one-of>
+      <item>daily schedule</item>
+      <item>the daily schedule</item>
+      <item>i would like to know about the daily schedule</item>
+      <item>i want to know about the daily schedule</item>
+      <item>tell me about the daily schedule</item>
+      <item>how do i take care of a tortoise everyday</item>
+      <item>how do i take care of my tortoise everyday</item>
+      <item>what is the daily schedule</item>
+      <item>what is the daily schedule like</item>
+    </one-of>
+  </action>
+
+  <action name="bathing_schedule">
+  <one-of>
+      <item>bathing schedule</item>
+      <item>the bathing schedule</item>
+      <item>i would like to know about the bathing schedule</item>
+      <item>i want to know about the bathing schedule</item>
+      <item>tell me about the bathing schedule</item>
+      <item>how do i bathe a tortoise</item>
+      <item>how do i bathe my tortoise</item>
+      <item>what is the bathing schedule</item>
+      <item>what is the bathing schedule like</item>
+      <item>bathing</item>
+      <item>the bathing</item>
+      <item>i would like to know about bathing</item>
+      <item>i would like to know about bathing a tortoise</item>
+      <item>i would like to know about bathing my tortoise</item>
+      <item>i want to know about bathing</item>
+      <item>i want to know about bathing a tortoise</item>
+      <item>i want to know about bathing my tortoise</item>
+      <item>tell me about bathing</item>      
+    </one-of>
+  </action>
+
   <!--asking about plant-->
   <question speaker="user" predicate="plant_edibility" type="alt_question">
     <one-of>
@@ -114,6 +152,19 @@
   <individual name="sunday">
     <one-of>
       <item>sunday</item>
+    </one-of>
+  </individual>
+
+  <!--finishing sentences-->
+  <individual name="bathing_finished">
+    <one-of>
+      <item>good job! that's all that there is to bathing a tortoise</item>
+    </one-of>
+  </individual>
+
+  <individual name="daily_finished">
+    <one-of>
+      <item>nice! remember to repeat the same steps every day to keep your tortoise happy</item>
     </one-of>
   </individual>
 
