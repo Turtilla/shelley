@@ -30,9 +30,11 @@
 
 <predicate name="plant_edibility" sort="string"/>
 <predicate name="wh_plant" sort="plant"/>
+<predicate name="wh_day" sord="day"/>
 
 <sort name="plant" dynamic="true"/>
 <sort name="finished_action" dynamic="false"/>
+<sort name="day" dynamic="false"/>
 
 <individual name="dandelion" sort="plant"/>
 <individual name="apple" sort="plant"/>
@@ -40,5 +42,13 @@
 
 <individual name="daily_finished" sort="finished_action"/>
 <individual name="bathing_finished" sort="finished_action"/>
+
+<individual name="monday" sort="day"/>
+<individual name="tuesday" sort="day"/>
+<individual name="wednesday" sort="day"/>
+<individual name="thursday" sort="day"/>
+<individual name="friday" sort="day"/>
+<individual name="saturday" sort="day"/>
+<individual name="sunday" sort="day"/>
 
 </ontology>

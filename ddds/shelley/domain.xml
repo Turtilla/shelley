@@ -128,9 +128,9 @@
 
   <goal type="perform" action="give_supplements">
     <plan>
-      <findout type="wh_question" predicate="day"/>
+      <findout type="wh_question" predicate="wh_day"/>
       <if> 
-        <is_private_belief_or_shared_commitment predicate="day" value="monday"/>
+        <is_private_belief_or_shared_commitment predicate="wh_day" value="monday"/>
         <then>
           <get_done action="give_calcium"/>
         </then>
