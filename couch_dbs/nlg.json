@@ -5,129 +5,129 @@
     },
     {
         "match": "request(prep_bath)",
-        "utterance": "another utterance"
+        "utterance": "First you will need to get a large container that the tortoise cannot get out of and fill it with a bit of lukewarmwater."
     },
     {
         "match": "request(give_bath)",
-        "utterance": "another utterance"
+        "utterance": "Gently place the tortoise in the water and pour some of the water over its shell. Leave the tortoise for a few minutes, but keep an eye out on it."
     },
     {
         "match": "request(fix_terrarium)",
-        "utterance": "another utterance"
+        "utterance": "In the meantime, make sure that the soil is evenly spread in the terrarium and that the decorations are in their right place. You can also clean the glass using an aquarium cleaning spray."
     },
     {
         "match": "request(do_health_check)",
-        "utterance": "another utterance"
+        "utterance": "Now you should take a towel, take the tortoise out of the bath, and gently dry it, checking if its healthy at the same time."
     },
     {
         "match": "request(finish_bathing)",
-        "utterance": "another utterance"
+        "utterance": "Finally, gently place the tortoise back in its terrarium. Then pour out the bath water and tidy everything else up."
     },
     {
         "match": "request(prep_bath_details)",
-        "utterance": "another utterance"
+        "utterance": "Pick a container like a plastic box or bowl that can comfortably fit your tortoise. Fill it with 1-3cm of lukewarm water, so that the tortoise's head can comfortably be above the water's surface. Do not use any soap or other detergents."
     },
     {
         "match": "request(give_bath_details)",
-        "utterance": "another utterance"
+        "utterance": "Always use both of your hands to carry the tortoise, and provide support for its tummy. It might not be happy in the water, but the bath is important. Make sure that the tortoise has no problems keeping its head up above the water. It's okay if it drinks some of it. It is also fine to leave it there for a few minutes."
     },
     {
         "match": "request(fix_terrarium_details)",
-        "utterance": "another utterance"
+        "utterance": "Make sure that the way the decorations are arranged is not dangerous or does not create narrow, abrasive passages. Make sure there is ample soil in the hiding spots. If it is too dry, use a spray bottle with water to moisten it and make it stay in place."
     },
     {
         "match": "request(do_health_check_details)",
-        "utterance": "another utterance"
+        "utterance": "You can start by gently wrapping the tortoise in the towel. Inspect the shell for any discolorations or injuries, and proceed to do the same for the skin. The tortoise should be lively and likely fighting you back. If anything worries you, contact a veterinarian who specializes in exotic animals."
     },
     {
         "match": "request(finish_bathing_details)",
-        "utterance": "another utterance"
+        "utterance": "Make sure the windows are closed and that its heat lamp is on as you place the tortoise back, to prevent it from getting too cold. Place it back carefully - it might look grumpy, but baths are healthy! You can pour the bath water out in the toilet or use it to water your plants."
     },
 
     {
         "match": "request(check_lights)",
-        "utterance": "another utterance"
+        "utterance": "First things first: make sure that both the UV lamp and the heat lamp are on."
     },
     {
         "match": "request(clean_leftovers)",
-        "utterance": "another utterance"
+        "utterance": "Pick out the leftover food from the terrarium to prevent it from going bad. Make sure to also take out poop if you see any."
     },
     {
         "match": "request(wash_bowls)",
-        "utterance": "another utterance"
+        "utterance": "Take out the food and water bowls and clean them."
     },
     {
         "match": "request(give_food)",
-        "utterance": "another utterance"
+        "utterance": "Now refill the dishes with food and water and put them back in the terrarium."
     },
     {
         "match": "request(give_supplements)",
-        "utterance": "another utterance"
+        "utterance": "Before you're done, you need to sprinkle some calcium powder or pellets over the tortoise's food, depending on the weekly schedule of calcium on Mondays, pellets on all the other days."
     },
     {
         "match": "request(check_lights_details)",
-        "utterance": "another utterance"
+        "utterance": "The lamps are on a timer, so they should turn on on their own in the morning and turn off in the evening, but make sure that they are working as they should be and replace the light bulbs if not."
     },
     {
         "match": "request(clean_leftovers_details)",
-        "utterance": "another utterance"
+        "utterance": "Make sure to check around the bowl, as tortoises like to drag their food out of the bowl sometimes. It's important that the tortoise doesn't eat any of the food that has had the time to go bad. Tortoise poop is usually solid and doesn't have a strong smell, you can pick it up through some toilet paper and flush it down in the toilet."
     },
     {
         "match": "request(wash_bowls_details)",
-        "utterance": "another utterance"
+        "utterance": "Make sure that the bowls are clean; usually a thorough rinse with water is enough, but if necessary, use a dish brush and a gentle, unscented detergent."
     },
     {
         "match": "request(give_food_details)",
-        "utterance": "another utterance"
+        "utterance": "Make sure to give fresh, cold water and fresh food. Tortoises predominantly eat grass and weeds, such as dandelion, clover, or plantago. If you are unsure, you can always ask me if a plant is edible."
     },
     {
         "match": "request(give_calcium)",
-        "utterance": "another utterance"
+        "utterance": "The bag with calcium powder should be by the terrarium. Open it and sprinkle about a teaspoonful on the food. It will stick to the residual water. You can mix the food up a bit to coat it evenly."
     },
     {
         "match": "request(give_pellets)",
-        "utterance": "another utterance"
+        "utterance": "The jar with pellets should be by the terrarium. Sprinkle about a teaspoonfull on the food. If you want, you can moisten them a bit and mush them up before you to that, but it is not necessary."
     },
 
     {
         "match": "report(action_status(prep_bath, done))",
-        "utterance": "another utterance"
+        "utterance": "Okay!"
     },
     {
         "match": "report(action_status(give_bath, done))",
-        "utterance": "another utterance"
+        "utterance": "Righty-o!"
     },
     {
         "match": "report(action_status(fix_terrarium, done))",
-        "utterance": "another utterance"
+        "utterance": "Awesome!"
     },
     {
         "match": "report(action_status(do_health_check, done))",
-        "utterance": "another utterance"
+        "utterance": "Gotcha!"
     },
     {
         "match": "report(action_status(finish_bathing, done))",
-        "utterance": "another utterance"
+        "utterance": "Sure!"
     },
     {
         "match": "report(action_status(check_lights, done))",
-        "utterance": "another utterance"
+        "utterance": "Righty-o!"
     },
     {
         "match": "report(action_status(clean_leftovers, done))",
-        "utterance": "another utterance"
+        "utterance": "Sure!"
     },
     {
         "match": "report(action_status(wash_bowls, done))",
-        "utterance": "another utterance"
+        "utterance": "Awesome!"
     },
     {
         "match": "report(action_status(give_food, done))",
-        "utterance": "another utterance"
+        "utterance": "Okay!"
     },
     {
         "match": "report(action_status(give_supplements, done))",
-        "utterance": "another utterance"
+        "utterance": "Gotcha!"
     }   
     
 ]
