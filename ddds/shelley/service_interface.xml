@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <service_interface>
+    <query name="plant_edibility">
+        <parameters>
+            <parameter predicate="wh_plant" format="value"/>
+        </parameters>
+        <target>
+            <http endpoint="http://ddds-http-service/edibility"/>
+        </target>
+    </query>
 </service_interface>
