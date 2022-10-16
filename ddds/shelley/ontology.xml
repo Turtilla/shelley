@@ -1,3 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ontology name="ShelleyOntology">
+
+<action name="daily_schedule"/>
+<action name="bathing_schedule"/>
+
+<action name="prep_bath"/>
+<action name="give_bath"/>
+<action name="fix_terrarium"/>
+<action name="do_health_check"/>
+<action name="finish_bathing"/>
+
+<action name="prep_bath_details"/>
+<action name="give_bath_details"/>
+<action name="fix_terrarium_details"/>
+<action name="do_health_check_details"/>
+<action name="finish_bathing_details"/>
+
+<action name="check_lights"/>
+<action name="clean_leftovers"/>
+<action name="wash_bowls"/>
+<action name="give_food"/>
+<action name="give_supplements"/>
+
+<action name="check_lights_details"/>
+<action name="clean_leftovers_details"/>
+<action name="wash_bowls_details"/>
+<action name="give_calcium"/>
+<action name="give_pellets"/>
+
+<predicate name="plant_edibility" sort="string"/>
+<predicate name="wh_plant" sort="plant"/>
+
+<sort name="plant" dynamic="true"/>
+<sort name="finished_action" dynamic="false"/>
+
+<individual name="dandelion" sort="plant"/>
+<individual name="apple" sort="plant"/>
+<individual name="lettuce" sort="plant"/>
+
+<individual name="daily_finished" sort="finished_action"/>
+<individual name="bathing_finished" sort="finished_action"/>
+
 </ontology>
