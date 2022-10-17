@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import csv
 
 def get_plant_dict(plant_name):
     # a function intended for retrieving information about plants matching
@@ -34,4 +35,56 @@ def get_plant_dict(plant_name):
         plant_dict[name] = {"edibility":edibility, "latin":latin}
         
     return plant_dict
+
+def get_plant_list(url):
+    # a function for retrieving solely the English names of the plants on some page on TTT
+    all_plants = []
+    # retrieving the html website
+    website = requests.get(url=url).text
+    # turning it into a BeautifulSoup object
+    soup = BeautifulSoup(website, 'html.parser')
+    plant_contents = list(soup.find(id='content').stripped_strings)[3:]
+    temporary_plant = []
+    # the elements can be edibility, plant name, alternative names, Latin
+    # names, and 'See More'
+    for element in plant_contents:
+        if element != 'See More':  # 'See More' delineates separate plants
+            temporary_plant.append(element)
+        else:  # if it is 'See More'
+            if len(temporary_plant) > 4:
+                temporary_plant = temporary_plant[3:]  # first line is different
+            all_plants.append(temporary_plant[1])
+            temporary_plant = []
+
+    return all_plants
     
+
+def get_plant_csv(filename):
+    # a function utilizing get_plant_list to obtain the list of all the plants that are described on TTT
+    # in order for it to be used for training RASA at detecting plant names.
+    
+    # all the categories in TTT
+    websites = [
+        'https://www.thetortoisetable.org.uk/plant-database/wild-flowers/#.Y00t73ZByUk',  # wild flowers
+        'https://www.thetortoisetable.org.uk/plant-database/garden-and-house-plants/#.Y00uBnZByUk',  # garden and house plants
+        'https://www.thetortoisetable.org.uk/plant-database/trees-shrubs-climbers/#.Y00uCHZByUk',  # trees and shrubs
+        'https://www.thetortoisetable.org.uk/plant-database/cacti-succulents/#.Y00uCXZByUk',  # cacti and succulents
+        'https://www.thetortoisetable.org.uk/plant-database/grasses-ferns/#.Y00uCXZByUk',  # grasses and ferns
+        'https://www.thetortoisetable.org.uk/plant-database/fruit-vegetables/#.Y00uCnZByUk',  # fruit and vegetables
+        'https://www.thetortoisetable.org.uk/plant-database/aquatic-and-semi-aquatic-plants/#.Y00uC3ZByUk',  # aquatic and semiaquatic plants
+    ]
+
+    # gathering the plants from each category
+    all_plants = []
+    for link in websites:
+        plants = get_plant_list(link)
+        all_plants += plants
+
+    # sorting the plants alphabetically for a more aesthetically pleasing CSV file
+    sorted_plants = sorted(all_plants)
+
+    # writing to the CSV file
+    with open(filename, 'w', encoding='UTF8') as f:
+        writer = csv.writer(f)
+        for plant in sorted_plants:
+            writer.writerow([plant])
