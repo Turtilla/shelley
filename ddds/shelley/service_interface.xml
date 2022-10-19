@@ -2,7 +2,7 @@
 <service_interface>
     <query name="plant_edibility">
         <parameters>
-            <parameter predicate="wh_plant" format="value"/>
+            <parameter predicate="wh_plant" format="grammar_entry"/>
         </parameters>
         <target>
             <http endpoint="http://ddds-http-service/edibility"/>
