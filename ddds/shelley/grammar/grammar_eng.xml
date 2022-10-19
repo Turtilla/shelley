@@ -23,7 +23,7 @@
 
   <!--actions-->
   <action name="daily_schedule">
-  <one-of>
+    <one-of>
       <item>daily schedule</item>
       <item>the daily schedule</item>
       <item>i would like to know about the daily schedule</item>
@@ -37,7 +37,7 @@
   </action>
 
   <action name="bathing_schedule">
-  <one-of>
+    <one-of>
       <item>bathing schedule</item>
       <item>the bathing schedule</item>
       <item>i would like to know about the bathing schedule</item>
@@ -78,7 +78,7 @@
       <item>can <slot predicate="wh_plant"/> be fed to tortoises</item>
       <item>can I give my tortoise <slot predicate="wh_plant"/></item>
       <item>tell me about a plant</item>
-      <item>tell me about <slot predicate="wh_plant"/>
+      <item>tell me about <slot predicate="wh_plant"/></item>
       <item>edibility</item>
       <item>plant</item>
     </one-of>
@@ -180,8 +180,30 @@
   <!--system answers-->
   <!--the rest is generated in http-service-->
   <answer speaker="system" predicate="plant_edibility">
-    <slot predicate="plant_edibility"/>
+    okay, <slot predicate="plant_edibility"/>
   </answer>
 
-
+  <!--will this fix it?-->
+  <action name="wash_bowls">wash bowls</action>
+  <action name="finish_bathing">finish bathing</action>
+  <action name="prep_bath_details">prep bath details</action>
+  <action name="give_supplements">give supplements</action>
+  <action name="prep_bath">prep bath</action>
+  <action name="finish_bathing_details">finish bathing details</action>
+  <action name="clean_leftovers_details">clean leftovers details</action>
+  <action name="fix_terrarium">fix terrarium</action>
+  <action name="do_health_check_details">do health check details</action>
+  <action name="check_lights">check lights</action>
+  <action name="give_bath_details">give bath details</action>
+  <action name="clean_leftovers">clean leftovers</action>
+  <action name="check_lights_details">check lights details</action>
+  <action name="do_health_check">do health check</action>
+  <action name="give_calcium">give calcium</action>
+  <action name="wash_bowls_details">wash bowls details</action>
+  <action name="give_food">give food</action>
+  <action name="fix_terrarium_details">fix terrarium details</action>
+  <action name="give_pellets">give pellets</action>
+  <action name="give_bath">give bath</action>
+  <action name="how">how</action>
+  <question type="wh_question" speaker="all" predicate="plant_edibility">plant edibility</question>
 </grammar>
