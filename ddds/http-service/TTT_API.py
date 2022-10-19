@@ -80,6 +80,22 @@ def get_plant_csv(filename):
         plants = get_plant_list(link)
         all_plants += plants
 
+    ### this would be useful IF THE WEBSITE understood plurals, which it does not :(
+    # generating and adding plurals
+    # plural_plants = []
+    # sibilants = ['s', 'z', 'sh', 'x', 'ch']
+    # for plant in all_plants:
+    #    if plant[-1] == 'y':
+    #        plural = plant[:-1] + 'ies'
+    #    elif plant[-1] in sibilants:
+    #        plural = plant + 'es'
+    #    elif plant[-2:] in sibilants:
+    #        plural = plant + 'es'
+    #    else:
+    #        plural = plant + 's'
+    #    plural_plants.append(plural)
+    # all_plants += plural_plants
+
     # sorting the plants alphabetically for a more aesthetically pleasing CSV file
     sorted_plants = sorted(all_plants)
 
