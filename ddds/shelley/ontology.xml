@@ -30,7 +30,8 @@
 
 <predicate name="plant_edibility" sort="string"/>
 <predicate name="wh_plant" sort="plant"/>
-<predicate name="wh_day" sord="day"/>
+<predicate name="wh_day" sort="day"/>
+<predicate name="finished" sort="finished_action"/>
 
 <sort name="plant" dynamic="true"/>
 <sort name="finished_action" dynamic="false"/>
