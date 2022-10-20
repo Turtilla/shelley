@@ -128,7 +128,7 @@
 
   <goal type="perform" action="give_supplements">
     <plan>
-      <findout type="wh_question" predicate="wh_day"/>
+      <findout type="wh_question" predicate="wh_day" allow_answer_from_pc="true"/>
       <if> 
         <is_private_belief_or_shared_commitment predicate="wh_day" value="monday"/>
         <then>
@@ -248,7 +248,7 @@
   <!--today's schedule-->
   <goal type="resolve" question_type="wh_question" predicate="schedule">
     <plan>
-      <findout type="wh_question" predicate="wh_day"/>
+      <findout type="wh_question" predicate="wh_day" allow_answer_from_pcom="true"/>
       <if> 
         <is_private_belief_or_shared_commitment predicate="wh_day" value="saturday"/>
         <then>
