@@ -1,21 +1,126 @@
 [
     {
-        "semantic_expression": "some(semantic_expression_of_a_move)",
+        "semantic_expression": "request(prep_bath)",
         "visual_information": [
             {
                 "attribute": "name",
                 "type": "text/plain",
-                "value": "Some text to show if the image cannot be shown"
+                "value": "A plastic container with a bit of water."
             },
             {
                 "attribute": "image",
                 "type": "image/jpeg",
-                "value": "https://some-image-url"
+                "value": "https://i.imgur.com/eM09MAv.jpg"
             }
         ]
     },
     {
-        "semantic_expression": "another(semantic_expression_of_a_move)",
+        "semantic_expression": "request(give_bath)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "A dirty tortoise in a bath."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/sn86nhH.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(give_bath_details)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "A clean tortoise in a bath."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/b1EJero.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(fix_terrarium)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "A spray for cleaning terraria."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/oRzPV5r.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(do_health_check)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "A tortoise wrapped in a towel."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/SzpHsDL.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(wash_bowls)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "A dirty water bowl and a brush."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/n7dytDd.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(give_food)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "A bowl filled with tortoise food."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/ycdCIcN.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(give_supplements)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "A bowl filled with tortoise food with calcium powder and pellets."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/gejFRqf.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(give_pellets)",
         "visual_information": [
             {
                 "attribute": "name",
@@ -25,7 +130,67 @@
             {
                 "attribute": "image",
                 "type": "image/jpeg",
-                "value": "https://another-image-url"
+                "value": "https://i.imgur.com/AoleRI8.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(give_calcium)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "Another text to show if the image cannot be shown"
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/n76Zip4.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "answer(petting(can_pet))",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "Someone petting a tortoise."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/hrhmufY.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "answer(holding(how_to_hold))",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "Someone holding a tortoise."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/8mlrxbT.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "answer(walking(can_walk))",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "Another text to show if the image cannot be shown"
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://i.imgur.com/KvMUAEa.jpg"
             }
         ]
     }
