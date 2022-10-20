@@ -3,6 +3,7 @@ version: "2.0"
 nlu:
 - intent: action::bathing_schedule
   examples: |
+    - know the bathing schedule
     - bathing schedule
     - the bathing schedule
     - i would like to know about the bathing schedule
@@ -24,6 +25,7 @@ nlu:
 
 - intent: action::daily_schedule
   examples: |
+    - know the daily schedule
     - daily schedule
     - the daily schedule
     - i would like to know about the daily schedule
@@ -33,150 +35,292 @@ nlu:
     - how do i take care of my tortoise everyday
     - what is the daily schedule
     - what is the daily schedule like
+    - how do I feed the tortoise
+    - how do I feed my tortoise
 
 - intent: question::plant_edibility
   examples: |
     - i want to know if a plant is edible
-    - i want to know if [Aeonium](sort.plant) is edible
-    - i want to know if [Ageratum](sort.plant) is edible
-    - i want to know if [Beetroot](sort.plant) is edible
-    - i want to know if [Chrysanthemum](sort.plant) is edible
-    - i want to know if [Grape Ivy](sort.plant) is edible
-    - i want to know if [Lewisia](sort.plant) is edible
-    - i want to know if [Livingstone Daisy](sort.plant) is edible
-    - i want to know if [London Plane](sort.plant) is edible
-    - i want to know if [Mind-Your-Own-Business](sort.plant) is edible
-    - i want to know if [Paddle Plant](sort.plant) is edible
+    - i want to know if [Bird's Foot Trefoil](sort.plant) is edible
+    - i want to know if [Fiber Optic Grass](sort.plant) is edible
+    - i want to know if [Heliotrope](sort.plant) is edible
+    - i want to know if [Meadow Vetchling](sort.plant) is edible
+    - i want to know if [Persian Buttercup](sort.plant) is edible
+    - i want to know if [Plantago coronopus; Plantago maritima](sort.plant) is edible
+    - i want to know if [bears breeches](sort.plant) is edible
+    - i want to know if [mock orange](sort.plant) is edible
+    - i want to know if [umbrella tree](sort.plant) is edible
+    - i want to know if [wallflower](sort.plant) is edible
     - i would like to know if a plant is edible
-    - i would like to know if [Ageratum](sort.plant) is edible
-    - i would like to know if [Aspidistra](sort.plant) is edible
-    - i would like to know if [Easter Cactus](sort.plant) is edible
-    - i would like to know if [Gypsophila](sort.plant) is edible
-    - i would like to know if [Hawthorn](sort.plant) is edible
-    - i would like to know if [Mistletoe](sort.plant) is edible
-    - i would like to know if [Spotted Laurel, Japanese Laurel, Japanese Aucuba](sort.plant) is edible
-    - i would like to know if [Wall Lettuce](sort.plant) is edible
-    - i would like to know if [Wheat](sort.plant) is edible
-    - i would like to know if [Wild Strawberry](sort.plant) is edible
+    - i would like to know if [Bindweed](sort.plant) is edible
+    - i would like to know if [Foxglove](sort.plant) is edible
+    - i would like to know if [Lady's Bedstraw](sort.plant) is edible
+    - i would like to know if [Meconopsis](sort.plant) is edible
+    - i would like to know if [Water Lily](sort.plant) is edible
+    - i would like to know if [bluebell](sort.plant) is edible
+    - i would like to know if [cranberry](sort.plant) is edible
+    - i would like to know if [crossandra](sort.plant) is edible
+    - i would like to know if [hellebore](sort.plant) is edible
+    - i would like to know if [mistletoe](sort.plant) is edible
     - tell me if a plant is edible
-    - tell me if [Ageratum](sort.plant) is edible
-    - tell me if [Creeping Zinnia](sort.plant) is edible
-    - tell me if [Dog's Mercury](sort.plant) is edible
-    - tell me if [Flowering Quince](sort.plant) is edible
-    - tell me if [Mask Flower](sort.plant) is edible
-    - tell me if [Mistletoe](sort.plant) is edible
-    - tell me if [Oat](sort.plant) is edible
-    - tell me if [Pearly Everlasting](sort.plant) is edible
-    - tell me if [Peperomia](sort.plant) is edible
-    - tell me if [Shrubby Milkwort](sort.plant) is edible
-    - can tortoises eat [Blue Potato Bush](sort.plant)
-    - can tortoises eat [Broccoli](sort.plant)
-    - can tortoises eat [Brussels Sprouts](sort.plant)
-    - can tortoises eat [Caryopteris](sort.plant)
-    - can tortoises eat [Everlasting Flower](sort.plant)
-    - can tortoises eat [Fir](sort.plant)
-    - can tortoises eat [Lily of the Valley](sort.plant)
-    - can tortoises eat [Pansy](sort.plant)
-    - can tortoises eat [Parrot Feather](sort.plant)
-    - can tortoises eat [Whitebeam](sort.plant)
-    - can a tortoise eat [Big Betony](sort.plant)
-    - can a tortoise eat [Fennel](sort.plant)
-    - can a tortoise eat [Flax](sort.plant)
-    - can a tortoise eat [Flowering Currant](sort.plant)
-    - can a tortoise eat [Gypsophila](sort.plant)
-    - can a tortoise eat [Horsetail](sort.plant)
-    - can a tortoise eat [Malope Mallow](sort.plant)
-    - can a tortoise eat [Perennial Wall Rocket](sort.plant)
-    - can a tortoise eat [Rayless Goldenrod](sort.plant)
-    - can a tortoise eat [Swede](sort.plant)
-    - can my tortoise eat [Asparagus](sort.plant)
-    - can my tortoise eat [Burdock](sort.plant)
-    - can my tortoise eat [Chayote](sort.plant)
-    - can my tortoise eat [Cowslip](sort.plant)
-    - can my tortoise eat [Dianthus](sort.plant)
-    - can my tortoise eat [Gallant Soldier/Shaggy Soldier](sort.plant)
-    - can my tortoise eat [Harebell](sort.plant)
-    - can my tortoise eat [Hemp Agrimony](sort.plant)
-    - can my tortoise eat [Sage](sort.plant)
-    - can my tortoise eat [Skimmia](sort.plant)
-    - is [Aster](sort.plant) edible
-    - is [Blue Sowthistle](sort.plant) edible
-    - is [Common Heliotrope](sort.plant) edible
-    - is [Corn on the Cob](sort.plant) edible
-    - is [Hops](sort.plant) edible
-    - is [Lobelia](sort.plant) edible
-    - is [Mallow](sort.plant) edible
-    - is [Oilseed Rape](sort.plant) edible
-    - is [Poppy](sort.plant) edible
-    - is [Rosebay Willowherb](sort.plant) edible
-    - can [Acca](sort.plant) be given to a tortoise
-    - can [Butterbur](sort.plant) be given to a tortoise
-    - can [Euonymus](sort.plant) be given to a tortoise
-    - can [Forget-Me-Not](sort.plant) be given to a tortoise
-    - can [Hedge Woundwort](sort.plant) be given to a tortoise
-    - can [Mandevilla](sort.plant) be given to a tortoise
-    - can [Petunia](sort.plant) be given to a tortoise
-    - can [Storksbill](sort.plant) be given to a tortoise
-    - can [Tiarella](sort.plant) be given to a tortoise
-    - can [Wandering Jew](sort.plant) be given to a tortoise
-    - can [Black Currant](sort.plant) be fed to a tortoise
-    - can [Bottlebrush](sort.plant) be fed to a tortoise
-    - can [Dandelion](sort.plant) be fed to a tortoise
-    - can [Feverfew](sort.plant) be fed to a tortoise
-    - can [Fleabane Daisy](sort.plant) be fed to a tortoise
-    - can [Grape Ivy](sort.plant) be fed to a tortoise
-    - can [Hawkweed](sort.plant) be fed to a tortoise
-    - can [Honeywort](sort.plant) be fed to a tortoise
-    - can [Salad Burnet, Garden Burnet, Small Burnet](sort.plant) be fed to a tortoise
-    - can [Sedum Spurium](sort.plant) be fed to a tortoise
-    - can [Birch](sort.plant) be given to tortoises
-    - can [Grass Vetchling](sort.plant) be given to tortoises
-    - can [Meadow Rue](sort.plant) be given to tortoises
-    - can [Melon](sort.plant) be given to tortoises
-    - can [Seaside Daisy](sort.plant) be given to tortoises
-    - can [Sedum Album](sort.plant) be given to tortoises
-    - can [Snowflake](sort.plant) be given to tortoises
-    - can [Spotted Deadnettle](sort.plant) be given to tortoises
-    - can [Storksbill](sort.plant) be given to tortoises
-    - can [Swede](sort.plant) be given to tortoises
-    - can [Angel's Fishing Rod](sort.plant) be fed to tortoises
-    - can [Buttercup](sort.plant) be fed to tortoises
-    - can [Carrot](sort.plant) be fed to tortoises
-    - can [Corn Salad](sort.plant) be fed to tortoises
-    - can [Fiber Optic Grass](sort.plant) be fed to tortoises
-    - can [Heather](sort.plant) be fed to tortoises
-    - can [Sow Thistle](sort.plant) be fed to tortoises
-    - can [Spotted Laurel, Japanese Laurel, Japanese Aucuba](sort.plant) be fed to tortoises
-    - can [Sweet Chestnut](sort.plant) be fed to tortoises
-    - can [Yellow Loosestrife](sort.plant) be fed to tortoises
-    - can I give my tortoise [Air Plant](sort.plant)
-    - can I give my tortoise [Bird of Paradise](sort.plant)
-    - can I give my tortoise [Blackthorn](sort.plant)
-    - can I give my tortoise [Bromeliad](sort.plant)
-    - can I give my tortoise [Mulberry Tree](sort.plant)
-    - can I give my tortoise [Purple Loosestrife](sort.plant)
-    - can I give my tortoise [Ragwort](sort.plant)
-    - can I give my tortoise [Silver Ragwort](sort.plant)
-    - can I give my tortoise [Verbena](sort.plant)
-    - can I give my tortoise [Willowherb](sort.plant)
+    - tell me if [Chicory](sort.plant) is edible
+    - tell me if [Firethorn](sort.plant) is edible
+    - tell me if [Pasque Flower](sort.plant) is edible
+    - tell me if [Wild Radish](sort.plant) is edible
+    - tell me if [bergamot](sort.plant) is edible
+    - tell me if [columbine](sort.plant) is edible
+    - tell me if [creeping jenny](sort.plant) is edible
+    - tell me if [grape](sort.plant) is edible
+    - tell me if [phacelia,](sort.plant) is edible
+    - tell me if [viper's bugloss](sort.plant) is edible
+    - can tortoises eat [Cuckoo Flower](sort.plant)
+    - can tortoises eat [Elodea](sort.plant)
+    - can tortoises eat [Hellebore](sort.plant)
+    - can tortoises eat [Jade Plant](sort.plant)
+    - can tortoises eat [Mignonette,](sort.plant)
+    - can tortoises eat [Sedum Reflexum](sort.plant)
+    - can tortoises eat [Sweet Potato](sort.plant)
+    - can tortoises eat [heliotrope](sort.plant)
+    - can tortoises eat [holly](sort.plant)
+    - can tortoises eat [panda plant](sort.plant)
+    - can a tortoise eat [Forsythia](sort.plant)
+    - can a tortoise eat [Purple Bell Vine](sort.plant)
+    - can a tortoise eat [Squash](sort.plant)
+    - can a tortoise eat [Wild Strawberry](sort.plant)
+    - can a tortoise eat [dumb cane](sort.plant)
+    - can a tortoise eat [groundsel](sort.plant)
+    - can a tortoise eat [laburnum](sort.plant)
+    - can a tortoise eat [peace lily](sort.plant)
+    - can a tortoise eat [red maple](sort.plant)
+    - can a tortoise eat [red valerian](sort.plant)
+    - can my tortoise eat [Horsetail](sort.plant)
+    - can my tortoise eat [Yew](sort.plant)
+    - can my tortoise eat [brunnera](sort.plant)
+    - can my tortoise eat [burclover](sort.plant)
+    - can my tortoise eat [euphorbia spp.](sort.plant)
+    - can my tortoise eat [leopard's bane](sort.plant)
+    - can my tortoise eat [roundleaf cranesbill geranium](sort.plant)
+    - can my tortoise eat [white currant](sort.plant)
+    - can my tortoise eat [wood betony](sort.plant)
+    - can my tortoise eat [yellow toadflax](sort.plant)
+    - is [Burnet](sort.plant) edible
+    - is [Chia](sort.plant) edible
+    - is [Curry Plant](sort.plant) edible
+    - is [Persicaria](sort.plant) edible
+    - is [chard](sort.plant) edible
+    - is [hops](sort.plant) edible
+    - is [jerusalem artichoke](sort.plant) edible
+    - is [millet](sort.plant) edible
+    - is [oleander](sort.plant) edible
+    - is [red bistort](sort.plant) edible
+    - can [Hellebore](sort.plant) be given to a tortoise
+    - can [Purple Loosestrife](sort.plant) be given to a tortoise
+    - can [Sycamore](sort.plant) be given to a tortoise
+    - can [Tropaeolum](sort.plant) be given to a tortoise
+    - can [acca](sort.plant) be given to a tortoise
+    - can [chionodoxa](sort.plant) be given to a tortoise
+    - can [globe artichoke](sort.plant) be given to a tortoise
+    - can [greater celandine](sort.plant) be given to a tortoise
+    - can [lavatera](sort.plant) be given to a tortoise
+    - can [red bartsia](sort.plant) be given to a tortoise
+    - can [Euonymus](sort.plant) be fed to a tortoise
+    - can [Mulberry Tree](sort.plant) be fed to a tortoise
+    - can [Silky Oak](sort.plant) be fed to a tortoise
+    - can [Sweet Chestnut](sort.plant) be fed to a tortoise
+    - can [Wolfberry](sort.plant) be fed to a tortoise
+    - can [clivia](sort.plant) be fed to a tortoise
+    - can [jerusalem sage](sort.plant) be fed to a tortoise
+    - can [prickly lettuce](sort.plant) be fed to a tortoise
+    - can [rhubarb](sort.plant) be fed to a tortoise
+    - can [wild ginger](sort.plant) be fed to a tortoise
+    - can [Castor Oil Plant](sort.plant) be given to tortoises
+    - can [Comfrey](sort.plant) be given to tortoises
+    - can [Hazel](sort.plant) be given to tortoises
+    - can [Ivy](sort.plant) be given to tortoises
+    - can [Jacaranda](sort.plant) be given to tortoises
+    - can [Red Currant](sort.plant) be given to tortoises
+    - can [Wild Radish](sort.plant) be given to tortoises
+    - can [agapanthus](sort.plant) be given to tortoises
+    - can [love-lies-bleeding](sort.plant) be given to tortoises
+    - can [rocket](sort.plant) be given to tortoises
+    - can [Deadly Nightshade](sort.plant) be fed to tortoises
+    - can [Eucalyptus](sort.plant) be fed to tortoises
+    - can [easter cactus](sort.plant) be fed to tortoises
+    - can [golden shrimp plant](sort.plant) be fed to tortoises
+    - can [lily](sort.plant) be fed to tortoises
+    - can [mallow](sort.plant) be fed to tortoises
+    - can [mossy saxifrage](sort.plant) be fed to tortoises
+    - can [oak tree](sort.plant) be fed to tortoises
+    - can [pomegranate](sort.plant) be fed to tortoises
+    - can [skimmia](sort.plant) be fed to tortoises
+    - can I give my tortoise [Bacopa](sort.plant)
+    - can I give my tortoise [Cranesbill Geranium](sort.plant)
+    - can I give my tortoise [Plum  — Fruit](sort.plant)
+    - can I give my tortoise [Stitchwort](sort.plant)
+    - can I give my tortoise [field madder](sort.plant)
+    - can I give my tortoise [lime](sort.plant)
+    - can I give my tortoise [morning glory](sort.plant)
+    - can I give my tortoise [pineapple weed](sort.plant)
+    - can I give my tortoise [primula](sort.plant)
+    - can I give my tortoise [water chestnut](sort.plant)
     - tell me about a plant
-    - tell me about [Autumn  Crocus](sort.plant)
-    - tell me about [Beetroot](sort.plant)
-    - tell me about [Bugle](sort.plant)
-    - tell me about [China Doll](sort.plant)
-    - tell me about [Cordyline](sort.plant)
-    - tell me about [Fleabane Daisy](sort.plant)
-    - tell me about [Pineapple](sort.plant)
-    - tell me about [Vetch](sort.plant)
-    - tell me about [Willowherb](sort.plant)
-    - tell me about [Wolfberry](sort.plant)
+    - tell me about [Aeonium](sort.plant)
+    - tell me about [Cotoneaster](sort.plant)
+    - tell me about [Easter Cactus](sort.plant)
+    - tell me about [Gloxinia](sort.plant)
+    - tell me about [Goat's Beard](sort.plant)
+    - tell me about [Panda Plant](sort.plant)
+    - tell me about [Welsh Poppy](sort.plant)
+    - tell me about [basket of gold](sort.plant)
+    - tell me about [petunia](sort.plant)
+    - tell me about [white currant](sort.plant)
     - edibility
     - plant
 
+- intent: question::petting
+  examples: |
+    - can I pet the tortoise
+    - can I pet my tortoise
+    - how do I pet the tortoise
+    - how do I pet my tortoise
+    - how does one pet a tortoise
+    - can you pet a tortoise
+
+- intent: question::walking
+  examples: |
+    - can I walk the tortoise
+    - can I walk my tortoise
+    - how do I walk the tortoise
+    - how do I walk my tortoise
+    - how does one walk a tortoise
+    - can you walk a tortoise
+    - can I take the tortoise for a walk
+    - can I take my tortoise for a walk
+    - can I let the tortoise out of the terrarium
+    - can I let my tortoise out of the terrarium
+    - can I let the tortoise out
+    - can I let my tortoise out
+    - should I let the tortoise out
+    - should I let my tortoise out
+
+- intent: question::food_type
+  examples: |
+    - what do I feed to my tortoise
+    - what do I feed to the tortoise
+    - what does a tortoise eat
+    - what should a tortoise eat
+    - what can a tortoise eat
+    - what can I feed to my tortoise
+    - what can I feed to the tortoise
+    - what should I feed to the tortoise
+    - what should I feed to my tortoise
+
+- intent: question::care
+  examples: |
+    - how do I take care of a tortoise
+    - how do I take care of my tortoise
+    - how does one take care of a tortoise
+    - what do I need to do
+    - what do I need to do to take care of a tortoise
+
+- intent: question::food_amount
+  examples: |
+    - how much food do I feed to my tortoise
+    - how much food do I feed to the tortoise
+    - how much does a tortoise eat
+    - how much should a tortoise eat
+    - how much can a tortoise eat
+    - how much can I feed to my tortoise
+    - how much can I feed to the tortoise
+    - how much should I feed to the tortoise
+    - how much should I feed to my tortoise
+    - how much food
+
+- intent: question::substrate
+  examples: |
+    - do I need to change the substrate
+    - do I need to change the soil
+    - how do I change the substrate
+    - how do I change the soil
+    - should I change the substrate
+    - should I change the soil
+
+- intent: question::lamps
+  examples: |
+    - what is the difference between the lamps
+    - which lamp is the UVB
+    - which lamp is the heat lamp
+    - which lamp gives off heat
+    - which lamp is which
+    - how do I tell the lamps apart
+
+- intent: question::moving
+  examples: |
+    - why doesn't the tortoise move much
+    - why doesn't my tortoise move much
+    - is it bad if my tortoise doesn't move much
+    - does a tortoise move much
+    - why does the tortoise keep running around
+    - why does my tortoise keep running around
+    - why does the tortoise move so much
+    - why does my tortoise move so much
+
+- intent: question::holding
+  examples: |
+    - how do I hold my tortoise
+    - how do I hold the tortoise
+    - how to hold a tortoise
+    - how to hold the tortoise
+    - how to hold my tortoise
+    - how should I hold the tortoise
+    - how should I hold my tortoise
+    - how should I hold a tortoise
+    - how does one hold a tortoise
+    - how do I carry my tortoise
+    - how do I carry the tortoise
+    - how to carry a tortoise
+    - how to carry the tortoise
+    - how to carry my tortoise
+    - how should I carry the tortoise
+    - how should I carry my tortoise
+    - how should I carry a tortoise
+    - how does one carry a tortoise
+
+- intent: question::schedule
+  examples: |
+    - what is on today's schedule
+    - what do I need to do today
+    - what do I do today
+    - what's the plan for today
+    - what is the plan for today
+    - what is today's itinerary
+
 - intent: answer
   examples: |
+    - [you can pet the tortoise gently on the shell or on the head, if you want. do not try to touch its legs, as that will scare it. please be very gentle when petting the tortoise and don't do it too much]{"entity": "sort.question_answer", "value": "individual.can_pet"}
+    - [I'm sorry, but it's not a good idea to let your tortoise out in the apartament. the floors are not good for its legs, and it can catch a cold]{"entity": "sort.question_answer", "value": "individual.cannot_walk"}
+    - [as long as the weather is nice and it's warmer than fifteen degrees celsius, you can walk your tortoise outside in nature. make sure to keep an eye on it so it doesn't get lost and watch out for what it's eating]{"entity": "sort.question_answer", "value": "individual.can_walk"}
+    - [tortoises mostly eat grass and weeds, plants that would not be very nutritious to humans, like dandelions or clover. if you are unsure if a tortoise can eat a certain plant, you can always ask me]{"entity": "sort.question_answer", "value": "individual.tortoise_food"}
+    - [taking care of a tortoise includes feeding it every day and keeping its enclosure clean, and bathing it once a week. i can give you the details for both the daily routine and how to bathe a tortoise]{"entity": "sort.question_answer", "value": "individual.care_explanations"}
+    - [try to fill the food bowl to the brim, but without squishing down the food. you can see the following day how much of the food was left and adjust accordingly]{"entity": "sort.question_answer", "value": "individual.amount_of_food"}
+    - [the substrate in the enclosure needs to be changed every three months, so you probably do not have to do it while you're in charge of taking care of the tortoise. if you do, please contact its owner for more instructions]{"entity": "sort.question_answer", "value": "individual.changing_substrate"}
+    - [the tortoise should be bathed on saturday]{"entity": "sort.question_answer", "value": "individual.saturday_baths"}
+    - [the round lamp is the heat lamp, and the long lamp is the UVB lamp]{"entity": "sort.question_answer", "value": "individual.lamps_explanations"}
+    - [tortoises are cold-blooded animals, which means their activity levels depend on the temperature. if it is hot and sunny, they will walk around a lot, if it's colder, they will prefer to bask and sleep under the heat lamp]{"entity": "sort.question_answer", "value": "individual.cold_blooded"}
+    - [you shouldn't hold a tortoise unless you're moving it to its bath or its carrier; if you do, make sure to hold it gently but firmly around the shell, ideally providing some support for the legs]{"entity": "sort.question_answer", "value": "individual.how_to_hold"}
+    - [on saturdays you should give the tortoise a bath and then feed it with pellets as a supplement]{"entity": "sort.question_answer", "value": "individual.saturday_schedule"}
+    - [on mondays you should feed the tortoise and remember to add some calcium powder to the food]{"entity": "sort.question_answer", "value": "individual.monday_schedule"}
+    - [today you should just feed the tortoise and add some pellets to its food]{"entity": "sort.question_answer", "value": "individual.other_schedule"}
     - [nice! remember to repeat the same steps every day to keep your tortoise happy]{"entity": "sort.finished_action", "value": "individual.daily_finished"}
     - [good job! that's all that there is to bathing a tortoise]{"entity": "sort.finished_action", "value": "individual.bathing_finished"}
+    - [inside]{"entity": "sort.location_type", "value": "individual.inside"}
+    - [in the house]{"entity": "sort.location_type", "value": "individual.inside"}
+    - [in the apartament]{"entity": "sort.location_type", "value": "individual.inside"}
+    - [on the floor]{"entity": "sort.location_type", "value": "individual.inside"}
+    - [outside]{"entity": "sort.location_type", "value": "individual.outside"}
+    - [in the garden]{"entity": "sort.location_type", "value": "individual.outside"}
+    - [on the lawn]{"entity": "sort.location_type", "value": "individual.outside"}
+    - [in nature]{"entity": "sort.location_type", "value": "individual.outside"}
     - [single](sort.string)
     - [double word](sort.string)
     - [three in one](sort.string)
@@ -194,43 +338,46 @@ nlu:
     - [friday]{"entity": "sort.day", "value": "individual.friday"}
     - [saturday]{"entity": "sort.day", "value": "individual.saturday"}
     - [sunday]{"entity": "sort.day", "value": "individual.sunday"}
-    - [Fringecup](sort.plant)
-    - [Yellow Archangel](sort.plant)
-    - [Pasque Flower](sort.plant)
+    - [Red Hot Poker](sort.plant)
+    - [traveller's joy](sort.plant)
+    - [Toad Lily](sort.plant)
+    - [hollyhock](sort.plant)
+    - [Goat's Beard](sort.plant)
+    - [auricula](sort.plant)
     - [Acca](sort.plant)
-    - [Horseherb](sort.plant)
-    - [Traveller's Joy](sort.plant)
-    - [Primula](sort.plant)
-    - [Sedum Reflexum](sort.plant)
-    - [Mountain Ash](sort.plant)
-    - [Lavatera](sort.plant)
-    - [Burnet](sort.plant)
-    - [Celosia](sort.plant)
-    - [Flamingo Flower](sort.plant)
-    - [Hoya](sort.plant)
-    - [Lavatera](sort.plant)
-    - [Poached Egg Plant](sort.plant)
-    - [Pokeweed](sort.plant)
-    - [Solomon's Seal](sort.plant)
-    - [Sweet Potato](sort.plant)
-    - [Wisteria](sort.plant)
-    - it's [Alexanders](sort.plant)
-    - it's [Amaryllis](sort.plant)
-    - it's [Campion](sort.plant)
-    - it's [China Doll](sort.plant)
-    - it's [Citrus Tree](sort.plant)
-    - it's [Common Knotweed](sort.plant)
-    - it's [Miner's Lettuce](sort.plant)
-    - it's [Scilla/Squill](sort.plant)
-    - it's [Shepherd's Purse](sort.plant)
-    - it's [Wood Anemone](sort.plant)
-    - [friday]{"entity": "sort.day", "value": "individual.friday"}
-    - [monday]{"entity": "sort.day", "value": "individual.monday"}
-    - [saturday]{"entity": "sort.day", "value": "individual.saturday"}
-    - [sunday]{"entity": "sort.day", "value": "individual.sunday"}
-    - [thursday]{"entity": "sort.day", "value": "individual.thursday"}
-    - [tuesday]{"entity": "sort.day", "value": "individual.tuesday"}
-    - [wednesday]{"entity": "sort.day", "value": "individual.wednesday"}
+    - [dropwort](sort.plant)
+    - [mind-your-own-business](sort.plant)
+    - [Purslane](sort.plant)
+    - that'd be [Bougainvillea](sort.plant)
+    - that'd be [Henbit](sort.plant)
+    - that'd be [Miner's Lettuce](sort.plant)
+    - that'd be [Persicaria](sort.plant)
+    - that'd be [Red Maple](sort.plant)
+    - that'd be [Rue](sort.plant)
+    - that'd be [cineraria](sort.plant)
+    - that'd be [coreopsis](sort.plant)
+    - that'd be [primrose](sort.plant)
+    - that'd be [yellow corydalis](sort.plant)
+    - [Astrantia](sort.plant)
+    - [Coriander](sort.plant)
+    - [Fritillary](sort.plant)
+    - [Fumitory](sort.plant)
+    - [Ground Ivy](sort.plant)
+    - [Panda Plant](sort.plant)
+    - [bears breeches](sort.plant)
+    - [black mondo grass](sort.plant)
+    - [clover](sort.plant)
+    - [flaming katy](sort.plant)
+    - it's [Astrantia](sort.plant)
+    - it's [Persian Buttercup](sort.plant)
+    - it's [Yellow-eyed Grass](sort.plant)
+    - it's [aluminium plant](sort.plant)
+    - it's [china doll](sort.plant)
+    - it's [flamingo flower](sort.plant)
+    - it's [japanese painted fern](sort.plant)
+    - it's [lily](sort.plant)
+    - it's [marrow](sort.plant)
+    - it's [okra](sort.plant)
     - it's [friday]{"entity": "sort.day", "value": "individual.friday"}
     - it's [monday]{"entity": "sort.day", "value": "individual.monday"}
     - it's [saturday]{"entity": "sort.day", "value": "individual.saturday"}
@@ -238,25 +385,88 @@ nlu:
     - it's [thursday]{"entity": "sort.day", "value": "individual.thursday"}
     - it's [tuesday]{"entity": "sort.day", "value": "individual.tuesday"}
     - it's [wednesday]{"entity": "sort.day", "value": "individual.wednesday"}
-    - yes [nice! remember to repeat the same steps every day to keep your tortoise happy]{"entity": "sort.finished_action", "value": "individual.daily_finished"}
-    - yes [it matters to make sense for nine of us](sort.string)
-    - yes [Yellow Archangel](sort.plant)
-    - yes [Celosia](sort.plant)
-    - yes it's [Amaryllis](sort.plant)
-    - yes [monday]{"entity": "sort.day", "value": "individual.monday"}
-    - yes it's [thursday]{"entity": "sort.day", "value": "individual.thursday"}
-    - no [good job! that's all that there is to bathing a tortoise]{"entity": "sort.finished_action", "value": "individual.bathing_finished"}
-    - no [would you bring ten or none to a desert island](sort.string)
-    - no [Pasque Flower](sort.plant)
-    - no [Flamingo Flower](sort.plant)
-    - no it's [Campion](sort.plant)
-    - no [saturday]{"entity": "sort.day", "value": "individual.saturday"}
-    - no it's [tuesday]{"entity": "sort.day", "value": "individual.tuesday"}
+    - it's [friday]{"entity": "sort.day", "value": "individual.friday"} today
+    - it's [monday]{"entity": "sort.day", "value": "individual.monday"} today
+    - it's [saturday]{"entity": "sort.day", "value": "individual.saturday"} today
+    - it's [sunday]{"entity": "sort.day", "value": "individual.sunday"} today
+    - it's [thursday]{"entity": "sort.day", "value": "individual.thursday"} today
+    - it's [tuesday]{"entity": "sort.day", "value": "individual.tuesday"} today
+    - it's [wednesday]{"entity": "sort.day", "value": "individual.wednesday"} today
+    - i want to walk the tortoise [in nature]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk the tortoise [in the apartament]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk the tortoise [in the garden]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk the tortoise [in the house]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk the tortoise [inside]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk the tortoise [on the floor]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk the tortoise [on the lawn]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk the tortoise [outside]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk my tortoise [in nature]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk my tortoise [in the apartament]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk my tortoise [in the garden]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk my tortoise [in the house]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk my tortoise [inside]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk my tortoise [on the floor]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk my tortoise [on the lawn]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk my tortoise [outside]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk it [in nature]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk it [in the apartament]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk it [in the garden]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk it [in the house]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk it [inside]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk it [on the floor]{"entity": "sort.location_type", "value": "individual.inside"}
+    - i want to walk it [on the lawn]{"entity": "sort.location_type", "value": "individual.outside"}
+    - i want to walk it [outside]{"entity": "sort.location_type", "value": "individual.outside"}
+    - yes [you can pet the tortoise gently on the shell or on the head, if you want. do not try to touch its legs, as that will scare it. please be very gentle when petting the tortoise and don't do it too much]{"entity": "sort.question_answer", "value": "individual.can_pet"}
+    - yes [you shouldn't hold a tortoise unless you're moving it to its bath or its carrier; if you do, make sure to hold it gently but firmly around the shell, ideally providing some support for the legs]{"entity": "sort.question_answer", "value": "individual.how_to_hold"}
+    - yes [outside]{"entity": "sort.location_type", "value": "individual.outside"}
+    - yes [bring them through to the jolly seven](sort.string)
+    - yes [sunday]{"entity": "sort.day", "value": "individual.sunday"}
+    - yes [Purslane](sort.plant)
+    - yes that'd be [yellow corydalis](sort.plant)
+    - yes [flaming katy](sort.plant)
+    - yes it's [okra](sort.plant)
+    - yes it's [saturday]{"entity": "sort.day", "value": "individual.saturday"} today
+    - yes i want to walk the tortoise [on the floor]{"entity": "sort.location_type", "value": "individual.inside"}
+    - yes i want to walk my tortoise [outside]{"entity": "sort.location_type", "value": "individual.outside"}
+    - no [I'm sorry, but it's not a good idea to let your tortoise out in the apartament. the floors are not good for its legs, and it can catch a cold]{"entity": "sort.question_answer", "value": "individual.cannot_walk"}
+    - no [on saturdays you should give the tortoise a bath and then feed it with pellets as a supplement]{"entity": "sort.question_answer", "value": "individual.saturday_schedule"}
+    - no [in the garden]{"entity": "sort.location_type", "value": "individual.outside"}
+    - no [noone counts toes like an eight toed guy](sort.string)
+    - no [Red Hot Poker](sort.plant)
+    - no that'd be [Bougainvillea](sort.plant)
+    - no [Astrantia](sort.plant)
+    - no it's [Astrantia](sort.plant)
+    - no it's [friday]{"entity": "sort.day", "value": "individual.friday"}
+    - no it's [sunday]{"entity": "sort.day", "value": "individual.sunday"} today
+    - no i want to walk the tortoise [on the lawn]{"entity": "sort.location_type", "value": "individual.outside"}
+    - no i want to walk it [in nature]{"entity": "sort.location_type", "value": "individual.outside"}
 
 - intent: answer_negation
   examples: |
+    - not [you can pet the tortoise gently on the shell or on the head, if you want. do not try to touch its legs, as that will scare it. please be very gentle when petting the tortoise and don't do it too much]{"entity": "sort.question_answer", "value": "individual.can_pet"}
+    - not [I'm sorry, but it's not a good idea to let your tortoise out in the apartament. the floors are not good for its legs, and it can catch a cold]{"entity": "sort.question_answer", "value": "individual.cannot_walk"}
+    - not [as long as the weather is nice and it's warmer than fifteen degrees celsius, you can walk your tortoise outside in nature. make sure to keep an eye on it so it doesn't get lost and watch out for what it's eating]{"entity": "sort.question_answer", "value": "individual.can_walk"}
+    - not [tortoises mostly eat grass and weeds, plants that would not be very nutritious to humans, like dandelions or clover. if you are unsure if a tortoise can eat a certain plant, you can always ask me]{"entity": "sort.question_answer", "value": "individual.tortoise_food"}
+    - not [taking care of a tortoise includes feeding it every day and keeping its enclosure clean, and bathing it once a week. i can give you the details for both the daily routine and how to bathe a tortoise]{"entity": "sort.question_answer", "value": "individual.care_explanations"}
+    - not [try to fill the food bowl to the brim, but without squishing down the food. you can see the following day how much of the food was left and adjust accordingly]{"entity": "sort.question_answer", "value": "individual.amount_of_food"}
+    - not [the substrate in the enclosure needs to be changed every three months, so you probably do not have to do it while you're in charge of taking care of the tortoise. if you do, please contact its owner for more instructions]{"entity": "sort.question_answer", "value": "individual.changing_substrate"}
+    - not [the tortoise should be bathed on saturday]{"entity": "sort.question_answer", "value": "individual.saturday_baths"}
+    - not [the round lamp is the heat lamp, and the long lamp is the UVB lamp]{"entity": "sort.question_answer", "value": "individual.lamps_explanations"}
+    - not [tortoises are cold-blooded animals, which means their activity levels depend on the temperature. if it is hot and sunny, they will walk around a lot, if it's colder, they will prefer to bask and sleep under the heat lamp]{"entity": "sort.question_answer", "value": "individual.cold_blooded"}
+    - not [you shouldn't hold a tortoise unless you're moving it to its bath or its carrier; if you do, make sure to hold it gently but firmly around the shell, ideally providing some support for the legs]{"entity": "sort.question_answer", "value": "individual.how_to_hold"}
+    - not [on saturdays you should give the tortoise a bath and then feed it with pellets as a supplement]{"entity": "sort.question_answer", "value": "individual.saturday_schedule"}
+    - not [on mondays you should feed the tortoise and remember to add some calcium powder to the food]{"entity": "sort.question_answer", "value": "individual.monday_schedule"}
+    - not [today you should just feed the tortoise and add some pellets to its food]{"entity": "sort.question_answer", "value": "individual.other_schedule"}
     - not [nice! remember to repeat the same steps every day to keep your tortoise happy]{"entity": "sort.finished_action", "value": "individual.daily_finished"}
     - not [good job! that's all that there is to bathing a tortoise]{"entity": "sort.finished_action", "value": "individual.bathing_finished"}
+    - not [inside]{"entity": "sort.location_type", "value": "individual.inside"}
+    - not [in the house]{"entity": "sort.location_type", "value": "individual.inside"}
+    - not [in the apartament]{"entity": "sort.location_type", "value": "individual.inside"}
+    - not [on the floor]{"entity": "sort.location_type", "value": "individual.inside"}
+    - not [outside]{"entity": "sort.location_type", "value": "individual.outside"}
+    - not [in the garden]{"entity": "sort.location_type", "value": "individual.outside"}
+    - not [on the lawn]{"entity": "sort.location_type", "value": "individual.outside"}
+    - not [in nature]{"entity": "sort.location_type", "value": "individual.outside"}
     - not [monday]{"entity": "sort.day", "value": "individual.monday"}
     - not [tuesday]{"entity": "sort.day", "value": "individual.tuesday"}
     - not [wednesday]{"entity": "sort.day", "value": "individual.wednesday"}
@@ -264,16 +474,16 @@ nlu:
     - not [friday]{"entity": "sort.day", "value": "individual.friday"}
     - not [saturday]{"entity": "sort.day", "value": "individual.saturday"}
     - not [sunday]{"entity": "sort.day", "value": "individual.sunday"}
-    - not [Hemp Agrimony](sort.plant)
-    - not [Alexanders](sort.plant)
-    - not [Willowherb](sort.plant)
-    - not [Tree of Heaven](sort.plant)
-    - not [Courgette](sort.plant)
-    - not [London Pride](sort.plant)
-    - not [Arisaema](sort.plant)
-    - not [Melon](sort.plant)
-    - not [Malabar Spinach](sort.plant)
-    - not [Blueberry](sort.plant)
+    - not [dog's mercury](sort.plant)
+    - not [sorrel](sort.plant)
+    - not [bryony](sort.plant)
+    - not [cow parsley](sort.plant)
+    - not [Saxifrage](sort.plant)
+    - not [Pea](sort.plant)
+    - not [Spiked Speedwell](sort.plant)
+    - not [malabar spinach](sort.plant)
+    - not [snowflake](sort.plant)
+    - not [china doll](sort.plant)
 
 - intent: NEGATIVE
   examples: |
@@ -517,809 +727,1615 @@ nlu:
 - lookup: sort.plant
   examples: |
     - Abelia
+    - abelia
     - Abutilon
+    - abutilon
     - Acca
+    - acca
     - Acer
+    - acer
     - Achillea millefolium
+    - achillea millefolium
     - Aconite
+    - aconite
     - Aeonium
+    - aeonium
     - African Violet
+    - african violet
     - Agapanthus
+    - agapanthus
     - Agave
+    - agave
     - Ageratum
+    - ageratum
     - Air Plant
+    - air plant
     - Alexanders
+    - alexanders
     - Alfalfa
+    - alfalfa
     - Allium
+    - allium
     - Aloe
+    - aloe
     - Alstroemeria
+    - alstroemeria
     - Aluminium Plant
+    - aluminium plant
     - Alyssum
+    - alyssum
     - Amaryllis
+    - amaryllis
     - Anemone
+    - anemone
     - Angel's Fishing Rod
+    - angel's fishing rod
     - Angelica
+    - angelica
     - Annual Wall Rocket
+    - annual wall rocket
     - Antirrhinum
+    - antirrhinum
     - Apple
+    - apple
     - Apple
+    - apple
     - Apricot
+    - apricot
     - Aquilegia
+    - aquilegia
     - Arisaema
+    - arisaema
     - Arnica
+    - arnica
     - Artillery Plant
+    - artillery plant
     - Arum Lily
+    - arum lily
     - Ash
+    - ash
     - Asparagus
+    - asparagus
     - Aspidistra
+    - aspidistra
     - Aster
+    - aster
     - Astilbe
+    - astilbe
     - Astrantia
+    - astrantia
     - Aubergine
+    - aubergine
     - Aubretia
+    - aubretia
     - Auricula
+    - auricula
     - Autumn  Crocus
+    - autumn  crocus
     - Avocado Fruit
+    - avocado fruit
     - Avocado Tree
+    - avocado tree
     - Azalea
+    - azalea
     - Bachelors Buttons
+    - bachelors buttons
     - Bacopa
+    - bacopa
     - Bacopa
+    - bacopa
     - Balloon Flower
+    - balloon flower
     - Bamboo
+    - bamboo
     - Baneberry
+    - baneberry
     - Barley Grass
+    - barley grass
     - Barrenwort
+    - barrenwort
     - Basil
+    - basil
     - Basket of Gold
+    - basket of gold
     - Bay Tree
+    - bay tree
     - Bean
+    - bean
     - Bean Sprouts
+    - bean sprouts
     - Bears Breeches
+    - bears breeches
     - Beauty Berry
+    - beauty berry
     - Beech
+    - beech
     - Beetroot
+    - beetroot
     - Begonia
+    - begonia
     - Begonia
+    - begonia
     - Berberis
+    - berberis
     - Bergamot
+    - bergamot
     - Big Betony
+    - big betony
     - Bilberry
+    - bilberry
     - Bindweed
+    - bindweed
     - Bindweed
+    - bindweed
     - Birch
+    - birch
     - Bird of Paradise
+    - bird of paradise
     - Bird's Foot Trefoil
+    - bird's foot trefoil
     - Birthwort
+    - birthwort
     - Bistort
+    - bistort
     - Bittercress
+    - bittercress
     - Bittersweet
+    - bittersweet
     - Black Currant
+    - black currant
     - Black Horehound
+    - black horehound
     - Black Locust
+    - black locust
     - Black Medic
+    - black medic
     - Black Mondo Grass
+    - black mondo grass
     - Black Nightshade
+    - black nightshade
     - Black-eyed Susan
+    - black-eyed susan
     - Black-eyed Susan
+    - black-eyed susan
     - Blackberry
+    - blackberry
     - Blackthorn
+    - blackthorn
     - Blanket Weed
+    - blanket weed
     - Bleeding Heart
+    - bleeding heart
     - Blue Potato Bush
+    - blue potato bush
     - Blue Sowthistle
+    - blue sowthistle
     - Blue Star Creeper
+    - blue star creeper
     - Blue-eyed Grass
+    - blue-eyed grass
     - Bluebell
+    - bluebell
     - Blueberry
+    - blueberry
     - Borage
+    - borage
     - Boston Fern
+    - boston fern
     - Boston Ivy
+    - boston ivy
     - Bottlebrush
+    - bottlebrush
     - Bougainvillea
+    - bougainvillea
     - Box
+    - box
     - Bracken
+    - bracken
     - Bramble
+    - bramble
     - Bristly Oxtongue
+    - bristly oxtongue
     - Broad Bean
+    - broad bean
     - Broadleaf Filaree
+    - broadleaf filaree
     - Broadleaf Stonecrop
+    - broadleaf stonecrop
     - Broccoli
+    - broccoli
     - Bromeliad
+    - bromeliad
     - Broom
+    - broom
     - Brugmansia spp.
+    - brugmansia spp.
     - Brunnera
+    - brunnera
     - Brussels Sprouts
+    - brussels sprouts
     - Bryony
+    - bryony
     - Buddleia
+    - buddleia
     - Bugle
+    - bugle
     - Bulrush
+    - bulrush
     - Burclover
+    - burclover
     - Burdock
+    - burdock
     - Burnet
+    - burnet
     - Burning Bush
+    - burning bush
     - Burr Marigold
+    - burr marigold
     - Busy Lizzie
+    - busy lizzie
     - Butterbur
+    - butterbur
     - Buttercup
+    - buttercup
     - Cabbage
+    - cabbage
     - Cabomba
+    - cabomba
     - California Poppy
+    - california poppy
     - Callisia
+    - callisia
     - Camassia
+    - camassia
     - Camellia
+    - camellia
     - Campanula
+    - campanula
     - Campanula
+    - campanula
     - Campion
+    - campion
     - Candytuft
+    - candytuft
     - Canna Lily
+    - canna lily
     - Cape Fuchsia
+    - cape fuchsia
     - Cape Honeysuckle
+    - cape honeysuckle
     - Cape Pondweed
+    - cape pondweed
     - Carex
+    - carex
     - Carrot
+    - carrot
     - Caryopteris
+    - caryopteris
     - Castor Oil Plant
+    - castor oil plant
     - Cat Grass
+    - cat grass
     - Cat's Ear
+    - cat's ear
     - Catnip
+    - catnip
     - Cauliflower
+    - cauliflower
     - Ceanothus
+    - ceanothus
     - Cedar
+    - cedar
     - Celery
+    - celery
     - Celosia
+    - celosia
     - Centaury
+    - centaury
     - Ceratostigma
+    - ceratostigma
     - Chameleon Plant
+    - chameleon plant
     - Chamomile
+    - chamomile
     - Chard
+    - chard
     - Charlock Mustard
+    - charlock mustard
     - Chayote
+    - chayote
     - Chenille Plant
+    - chenille plant
     - Cherry
+    - cherry
     - Cherry
+    - cherry
     - Chia
+    - chia
     - Chickweed
+    - chickweed
     - Chicorum endivia
+    - chicorum endivia
     - Chicory
+    - chicory
     - Chilean Potato Vine
+    - chilean potato vine
     - Chili Pepper
+    - chili pepper
     - China Doll
+    - china doll
     - Chinese Cabbage
+    - chinese cabbage
     - Chinese Forget-Me-Not
+    - chinese forget-me-not
     - Chinese Lantern
+    - chinese lantern
     - Chionodoxa
+    - chionodoxa
     - Chives
+    - chives
     - Christmas Cactus
+    - christmas cactus
     - Chrysanthemum
+    - chrysanthemum
     - Cineraria
+    - cineraria
     - Cinquefoil
+    - cinquefoil
     - Cistus
+    - cistus
     - Citrus Fruits
+    - citrus fruits
     - Citrus Tree
+    - citrus tree
     - Clarkia
+    - clarkia
     - Clematis
+    - clematis
     - Clivia
+    - clivia
     - Clover
+    - clover
     - Cogongrass
+    - cogongrass
     - Coleus
+    - coleus
     - Coltsfoot
+    - coltsfoot
     - Columbine
+    - columbine
     - Comfrey
+    - comfrey
     - Common Fleabane
+    - common fleabane
     - Common Heliotrope
+    - common heliotrope
     - Common Knotweed
+    - common knotweed
     - Coneflower
+    - coneflower
     - Cordyline
+    - cordyline
     - Coreopsis
+    - coreopsis
     - Coriander
+    - coriander
     - Corn Marigold
+    - corn marigold
     - Corn Salad
+    - corn salad
     - Corn on the Cob
+    - corn on the cob
     - Corncockle
+    - corncockle
     - Cornflower
+    - cornflower
     - Cosmos
+    - cosmos
     - Cotoneaster
+    - cotoneaster
     - Cotton Lavender
+    - cotton lavender
     - Couch Grass
+    - couch grass
     - Courgette
+    - courgette
     - Cow Parsley
+    - cow parsley
     - Cow Parsnip
+    - cow parsnip
     - Cowslip
+    - cowslip
     - Crab Apple
+    - crab apple
     - Cranberry
+    - cranberry
     - Cranesbill Geranium
+    - cranesbill geranium
     - Crape Myrtle
+    - crape myrtle
     - Creeping Jenny
+    - creeping jenny
     - Creeping Thistle
+    - creeping thistle
     - Creeping Yellowcress
+    - creeping yellowcress
     - Creeping Zinnia
+    - creeping zinnia
     - Cress
+    - cress
     - Crocus
+    - crocus
     - Crossandra
+    - crossandra
     - Crosswort
+    - crosswort
     - Croton
+    - croton
     - Crown Imperial Fritillary
+    - crown imperial fritillary
     - Crown of Thorns
+    - crown of thorns
     - Cuckoo Flower
+    - cuckoo flower
     - Cucumber
+    - cucumber
     - Cuphea
+    - cuphea
     - Curry Plant
+    - curry plant
     - Cyclamen
+    - cyclamen
     - Daffodil
+    - daffodil
     - Dahlia
+    - dahlia
     - Daisy
+    - daisy
     - Daisy
+    - daisy
     - Daisy Bush
+    - daisy bush
     - Dame's Violet
+    - dame's violet
     - Dandelion
+    - dandelion
     - Daphne
+    - daphne
     - Datura
+    - datura
     - Day Lily
+    - day lily
     - Deadly Nightshade
+    - deadly nightshade
     - Deadnettle
+    - deadnettle
     - Delphinium
+    - delphinium
     - Desert Willow
+    - desert willow
     - Deutzia
+    - deutzia
     - Dianthus
+    - dianthus
     - Diascia
+    - diascia
     - Dill
+    - dill
     - Dock
+    - dock
     - Dog's Mercury
+    - dog's mercury
     - Dogwood
+    - dogwood
     - Dracaena
+    - dracaena
     - Dropwort
+    - dropwort
     - Duckweed
+    - duckweed
     - Dumb Cane
+    - dumb cane
     - Easter Cactus
+    - easter cactus
     - Echeveria
+    - echeveria
     - Elder
+    - elder
     - Elephant's Ear
+    - elephant's ear
     - Elephant's Ears
+    - elephant's ears
     - Elm
+    - elm
     - Elodea
+    - elodea
     - Enchanter's Nightshade
+    - enchanter's nightshade
     - Endive
+    - endive
     - Escallonia
+    - escallonia
     - Eucalyptus
+    - eucalyptus
     - Euonymus
+    - euonymus
     - Euphorbia - Garden
+    - euphorbia - garden
     - Euphorbia - Succulent
+    - euphorbia - succulent
     - Euphorbia spp.
+    - euphorbia spp.
     - Evening Primrose
+    - evening primrose
     - Everlasting Flower
+    - everlasting flower
     - Fairy Moss
+    - fairy moss
     - False Castor Oil Plant
+    - false castor oil plant
     - False Solomon's Seal
+    - false solomon's seal
     - Fat-hen
+    - fat-hen
     - Fennel
+    - fennel
     - Ferns
+    - ferns
     - Fescue Grass
+    - fescue grass
     - Feverfew
+    - feverfew
     - Fiber Optic Grass
+    - fiber optic grass
     - Field Madder
+    - field madder
     - Field Maple
+    - field maple
     - Fig Tree
+    - fig tree
     - Figwort
+    - figwort
     - Fir
+    - fir
     - Firethorn
+    - firethorn
     - Fittonia
+    - fittonia
     - Flaming Katy
+    - flaming katy
     - Flamingo Flower
+    - flamingo flower
     - Flax
+    - flax
     - Fleabane Daisy
+    - fleabane daisy
     - Flower-of-an-Hour
+    - flower-of-an-hour
     - Flowering Currant
+    - flowering currant
     - Flowering Quince
+    - flowering quince
     - Forget-Me-Not
+    - forget-me-not
     - Forsythia
+    - forsythia
     - Fountaingrass
+    - fountaingrass
     - Four O'Clock Flower
+    - four o'clock flower
     - Fox and Cubs
+    - fox and cubs
     - Foxglove
+    - foxglove
     - Foxglove
+    - foxglove
     - Frangipani
+    - frangipani
     - Freesia
+    - freesia
     - French Marigold
+    - french marigold
     - Friendship Plant
+    - friendship plant
     - Fringecup
+    - fringecup
     - Fritillary
+    - fritillary
     - Fuchsia
+    - fuchsia
     - Fumitory
+    - fumitory
     - Gallant Soldier/Shaggy Soldier
+    - gallant soldier/shaggy soldier
     - Gardenia
+    - gardenia
     - Garlic Mustard
+    - garlic mustard
     - Gasteria
+    - gasteria
     - Gayfeather
+    - gayfeather
     - Gazania
+    - gazania
     - Gentian
+    - gentian
     - Geranium
+    - geranium
     - Gerbera
+    - gerbera
     - Geum - Garden Plant
+    - geum - garden plant
     - Giant Cane
+    - giant cane
     - Giant Hyssop
+    - giant hyssop
     - Ginkgo
+    - ginkgo
     - Gladiolus
+    - gladiolus
     - Globe Artichoke
+    - globe artichoke
     - Globe Thistle
+    - globe thistle
     - Gloxinia
+    - gloxinia
     - Goat's Beard
+    - goat's beard
     - Goat's Rue
+    - goat's rue
     - Golden Shrimp Plant
+    - golden shrimp plant
     - Goldenrod
+    - goldenrod
     - Good King Henry
+    - good king henry
     - Goose Grass
+    - goose grass
     - Gooseberry
+    - gooseberry
     - Gorse
+    - gorse
     - Grape
+    - grape
     - Grape Hyacinth
+    - grape hyacinth
     - Grape Ivy
+    - grape ivy
     - Grape Vine
+    - grape vine
     - Grass Vetchling
+    - grass vetchling
     - Greater Celandine
+    - greater celandine
     - Green Alkanet
+    - green alkanet
     - Ground Elder
+    - ground elder
     - Ground Ivy
+    - ground ivy
     - Groundsel
+    - groundsel
     - Gunnera
+    - gunnera
     - Gypsophila
+    - gypsophila
     - Harebell
+    - harebell
     - Hawk's-beard
+    - hawk's-beard
     - Hawkbit
+    - hawkbit
     - Hawkweed
+    - hawkweed
     - Haworthia
+    - haworthia
     - Hawthorn
+    - hawthorn
     - Hazel
+    - hazel
     - Heartleaf Iceplant
+    - heartleaf iceplant
     - Heath
+    - heath
     - Heather
+    - heather
     - Hebe
+    - hebe
     - Hedge Mustard
+    - hedge mustard
     - Hedge Woundwort
+    - hedge woundwort
     - Heliotrope
+    - heliotrope
     - Hellebore
+    - hellebore
     - Hemlock
+    - hemlock
     - Hemp Agrimony
+    - hemp agrimony
     - Hemp Nettle
+    - hemp nettle
     - Henbit
+    - henbit
     - Herb Hyssop
+    - herb hyssop
     - Herb Paris
+    - herb paris
     - Herb Robert
+    - herb robert
     - Heuchera
+    - heuchera
     - Hibiscus
+    - hibiscus
     - Hibiscus
+    - hibiscus
     - Himalayan Balsam
+    - himalayan balsam
     - Himalayan Honeysuckle
+    - himalayan honeysuckle
     - Hoary Cress
+    - hoary cress
     - Hog Weed
+    - hog weed
     - Holly
+    - holly
     - Hollyhock
+    - hollyhock
     - Honesty
+    - honesty
     - Honeysuckle
+    - honeysuckle
     - Honeywort
+    - honeywort
     - Hop Clover
+    - hop clover
     - Hops
+    - hops
     - Hornwort
+    - hornwort
     - Horse Chestnut
+    - horse chestnut
     - Horseherb
+    - horseherb
     - Horseradish
+    - horseradish
     - Horsetail
+    - horsetail
     - Horseweed
+    - horseweed
     - Hosta
+    - hosta
     - Hottentot Fig
+    - hottentot fig
     - House Leek
+    - house leek
     - Hoya
+    - hoya
     - Hyacinth
+    - hyacinth
     - Hydrangea
+    - hydrangea
     - Ice Plant
+    - ice plant
     - Ice Plant
+    - ice plant
     - Iceberg Lettuce
+    - iceberg lettuce
     - Indian Bean Tree
+    - indian bean tree
     - Iris
+    - iris
     - Iris
+    - iris
     - Ivy
+    - ivy
     - Ivy Leaved Toadflax
+    - ivy leaved toadflax
     - Jacaranda
+    - jacaranda
     - Jacob's Ladder
+    - jacob's ladder
     - Jade Plant
+    - jade plant
     - Japanese Anemone
+    - japanese anemone
     - Japanese Knotweed
+    - japanese knotweed
     - Japanese Painted Fern
+    - japanese painted fern
     - Jasmine
+    - jasmine
     - Jerusalem Artichoke
+    - jerusalem artichoke
     - Jerusalem Cherry
+    - jerusalem cherry
     - Jerusalem Sage
+    - jerusalem sage
     - Juncus
+    - juncus
     - Juniper
+    - juniper
     - Jute Mallow
+    - jute mallow
     - Kale
+    - kale
     - Kangaroo Apple
+    - kangaroo apple
     - Kerria
+    - kerria
     - Kidney Vetch
+    - kidney vetch
     - Kidney Weed
+    - kidney weed
     - Knapweed
+    - knapweed
     - Knautia Macedonica
+    - knautia macedonica
     - Kohlrabi
+    - kohlrabi
     - Laburnum
+    - laburnum
     - Lactuca sativa
+    - lactuca sativa
     - Lady's Bedstraw
+    - lady's bedstraw
     - Lady's Mantle
+    - lady's mantle
     - Lady's Purse
+    - lady's purse
     - Lamb's Ear
+    - lamb's ear
     - Lamb's Lettuce
+    - lamb's lettuce
     - Lantana
+    - lantana
     - Laurel
+    - laurel
     - Lavatera
+    - lavatera
     - Lavender
+    - lavender
     - Lemon
+    - lemon
     - Lemon Balm
+    - lemon balm
     - Leopard's Bane
+    - leopard's bane
     - Lesser Celandine
+    - lesser celandine
     - Lewisia
+    - lewisia
     - Ligularia
+    - ligularia
     - Lilac
+    - lilac
     - Lily
+    - lily
     - Lily Turf
+    - lily turf
     - Lily of the Valley
+    - lily of the valley
     - Lime
+    - lime
     - Lipstick Plant
+    - lipstick plant
     - Liquidambar
+    - liquidambar
     - Lisianthus
+    - lisianthus
     - Livingstone Daisy
+    - livingstone daisy
     - Lobelia
+    - lobelia
     - London Plane
+    - london plane
     - London Pride
+    - london pride
     - Lords and Ladies
+    - lords and ladies
     - Lovage
+    - lovage
     - Love-In-A-Mist
+    - love-in-a-mist
     - Love-Lies-Bleeding
+    - love-lies-bleeding
     - Lucky Bamboo
+    - lucky bamboo
     - Lupin
+    - lupin
     - Lychnis
+    - lychnis
     - Magnolia
+    - magnolia
     - Mahonia
+    - mahonia
     - Maize
+    - maize
     - Malabar Spinach
+    - malabar spinach
     - Mallow
+    - mallow
     - Malope Mallow
+    - malope mallow
     - Maltese Cross
+    - maltese cross
     - Mandevilla
+    - mandevilla
     - Marguerite Daisy
+    - marguerite daisy
     - Marigold
+    - marigold
     - Marjoram
+    - marjoram
     - Marrow
+    - marrow
     - Marsh Marigold
+    - marsh marigold
     - Marsh Woundwort
+    - marsh woundwort
     - Mask Flower
+    - mask flower
     - Mazus
+    - mazus
     - Meadow Rue
+    - meadow rue
     - Meadow Vetchling
+    - meadow vetchling
     - Meadowsweet
+    - meadowsweet
     - Meconopsis
+    - meconopsis
     - Melilot
+    - melilot
     - Melon
+    - melon
     - Mexican Orange Blossom
+    - mexican orange blossom
     - Mexican Petunia
+    - mexican petunia
     - Michaelmas Daisy
+    - michaelmas daisy
     - Mignonette,
+    - mignonette,
     - Milk Thistle
+    - milk thistle
     - Milk Vetch
+    - milk vetch
     - Milkweed
+    - milkweed
     - Millet
+    - millet
     - Million Bells
+    - million bells
     - Mimosa
+    - mimosa
     - Mimulus
+    - mimulus
     - Mind-Your-Own-Business
+    - mind-your-own-business
     - Miner's Lettuce
+    - miner's lettuce
     - Mint
+    - mint
     - Mistletoe
+    - mistletoe
     - Mock Orange
+    - mock orange
     - Monstera
+    - monstera
     - Montbretia
+    - montbretia
     - Morning Glory
+    - morning glory
     - Moss Rose
+    - moss rose
     - Mossy Saxifrage
+    - mossy saxifrage
     - Mother of Pearl Plant
+    - mother of pearl plant
     - Mother of Thousands
+    - mother of thousands
     - Mother-in-Law's Tongue
+    - mother-in-law's tongue
     - Mountain Ash
+    - mountain ash
     - Mountain Laurel
+    - mountain laurel
     - Mouse-ear Hawkweed
+    - mouse-ear hawkweed
     - Mugwort
+    - mugwort
     - Mulberry Tree
+    - mulberry tree
     - Mullein
+    - mullein
     - Musa acuminata; Musa balbisiana
+    - musa acuminata; musa balbisiana
     - Musa acuminata; Musa balbisiana
+    - musa acuminata; musa balbisiana
     - Mushroom
+    - mushroom
     - Musk Mallow
+    - musk mallow
     - Myrtle
+    - myrtle
     - Nasturtium
+    - nasturtium
     - Navelwort
+    - navelwort
     - Nectarine
+    - nectarine
     - Nectarine
+    - nectarine
     - Nemesia
+    - nemesia
     - Nerine
+    - nerine
     - Nettle
+    - nettle
     - Nipplewort
+    - nipplewort
     - Oak tree
+    - oak tree
     - Oat
+    - oat
     - Oilseed Rape
+    - oilseed rape
     - Okra
+    - okra
     - Oleander
+    - oleander
     - Olive
+    - olive
     - Onion
+    - onion
     - Opuntia Cactus
+    - opuntia cactus
     - Orache
+    - orache
     - Oregano
+    - oregano
     - Oriental Poppy
+    - oriental poppy
     - Osteospermum
+    - osteospermum
     - Ox-eye Daisy
+    - ox-eye daisy
     - Pachyphytum Bracteosum
+    - pachyphytum bracteosum
     - Paddle Plant
+    - paddle plant
     - Pampas Grass
+    - pampas grass
     - Panda Plant
+    - panda plant
     - Pansy
+    - pansy
     - Parlour Palm
+    - parlour palm
     - Parrot Feather
+    - parrot feather
     - Parsley
+    - parsley
     - Parsnip
+    - parsnip
     - Pasque Flower
+    - pasque flower
     - Passion Flower
+    - passion flower
     - Pea
+    - pea
     - Peace Lily
+    - peace lily
     - Peach
+    - peach
     - Peach Tree
+    - peach tree
     - Pear
+    - pear
     - Pear Tree
+    - pear tree
     - Pearly Everlasting
+    - pearly everlasting
     - Pelargonium
+    - pelargonium
     - Pennyroyal
+    - pennyroyal
     - Penstemon
+    - penstemon
     - Pentas
+    - pentas
     - Peony
+    - peony
     - Peperomia
+    - peperomia
     - Peppermint
+    - peppermint
     - Perennial Wall Rocket
+    - perennial wall rocket
     - Perilla
+    - perilla
     - Periwinkle
+    - periwinkle
     - Persian Buttercup
+    - persian buttercup
     - Persicaria
+    - persicaria
     - Petunia
+    - petunia
     - Phacelia,
+    - phacelia,
     - Pheasants Eye
+    - pheasants eye
     - Philodendron
+    - philodendron
     - Phlox
+    - phlox
     - Photinia
+    - photinia
     - Pieris
+    - pieris
     - Pine
+    - pine
     - Pineapple
+    - pineapple
     - Pineapple Weed
+    - pineapple weed
     - Pink Purslane
+    - pink purslane
     - Pittosporum
+    - pittosporum
     - Plantago coronopus; Plantago maritima
+    - plantago coronopus; plantago maritima
     - Plantago lanceolata
+    - plantago lanceolata
     - Plantago major; Plantago media
+    - plantago major; plantago media
     - Plum  — Fruit
+    - plum  — fruit
     - Plum — Tree,
+    - plum — tree,
     - Plumbago
+    - plumbago
     - Poached Egg Plant
+    - poached egg plant
     - Poinsettia
+    - poinsettia
     - Pokeweed
+    - pokeweed
     - Polka Dot Plant
+    - polka dot plant
     - Pomegranate
+    - pomegranate
     - Pomegranate Shrub
+    - pomegranate shrub
     - Poplar
+    - poplar
     - Poppy
+    - poppy
     - Potato
+    - potato
     - Potentilla atrosanguinea
+    - potentilla atrosanguinea
     - Potentilla fruticosa
+    - potentilla fruticosa
     - Prayer Plant
+    - prayer plant
     - Prickly Lettuce
+    - prickly lettuce
     - Prickly Poppy
+    - prickly poppy
     - Primrose
+    - primrose
     - Primula
+    - primula
     - Privet
+    - privet
     - Prunus armeniaca; Prunus armeniaca mume
+    - prunus armeniaca; prunus armeniaca mume
     - Pulmonaria
+    - pulmonaria
     - Pumpkin
+    - pumpkin
     - Purple Bell Vine
+    - purple bell vine
     - Purple Loosestrife
+    - purple loosestrife
     - Purple Loosestrife
+    - purple loosestrife
     - Purpletop Vervain
+    - purpletop vervain
     - Purslane
+    - purslane
     - Quince
+    - quince
     - Quince Tree
+    - quince tree
     - Radicchio
+    - radicchio
     - Radish
+    - radish
     - Ragged Robin
+    - ragged robin
     - Ragweed
+    - ragweed
     - Ragwort
+    - ragwort
     - Raspberry
+    - raspberry
     - Rayless Goldenrod
+    - rayless goldenrod
     - Red Bartsia
+    - red bartsia
     - Red Bistort
+    - red bistort
     - Red Currant
+    - red currant
     - Red Hot Poker
+    - red hot poker
     - Red Leaf Lettuce
+    - red leaf lettuce
     - Red Maple
+    - red maple
     - Red Pitaya
+    - red pitaya
     - Red Valerian
+    - red valerian
     - Rest Harrow
+    - rest harrow
     - Rhipsalis
+    - rhipsalis
     - Rhododendron
+    - rhododendron
     - Rhubarb
+    - rhubarb
     - Rock Cress
+    - rock cress
     - Rock Rose
+    - rock rose
     - Rocket
+    - rocket
     - Rose
+    - rose
     - Rosebay Willowherb
+    - rosebay willowherb
     - Rosemary
+    - rosemary
     - Roundleaf Cranesbill Geranium
+    - roundleaf cranesbill geranium
     - Rue
+    - rue
     - Russian Sage
+    - russian sage
     - Russian Vine
+    - russian vine
     - Safflower
+    - safflower
     - Sage
+    - sage
     - Sainfoin
+    - sainfoin
     - Salad Burnet, Garden Burnet, Small Burnet
+    - salad burnet, garden burnet, small burnet
     - Salvia
+    - salvia
     - Sambucus Nigra
+    - sambucus nigra
     - Saxifrage
+    - saxifrage
     - Scabious
+    - scabious
     - Scarlet Pimpernel
+    - scarlet pimpernel
     - Scentless Mayweed
+    - scentless mayweed
     - Scilla/Squill
+    - scilla/squill
     - Scotch Thistle
+    - scotch thistle
     - Scurvy Grass
+    - scurvy grass
     - Sea Holly
+    - sea holly
     - Seaside Daisy
+    - seaside daisy
     - Sedum
+    - sedum
     - Sedum Acre
+    - sedum acre
     - Sedum Album
+    - sedum album
     - Sedum Reflexum
+    - sedum reflexum
     - Sedum Spurium
+    - sedum spurium
     - Self-heal
+    - self-heal
     - Sensitive Plant
+    - sensitive plant
     - Shasta Daisy
+    - shasta daisy
     - Shepherd's Purse
+    - shepherd's purse
     - Shining Cranesbill
+    - shining cranesbill
     - Shrimp Plant
+    - shrimp plant
     - Shrubby Milkwort
+    - shrubby milkwort
     - Silk Tree
+    - silk tree
     - Silky Oak
+    - silky oak
     - Silver Ragwort
+    - silver ragwort
     - Silver Saxifrage
+    - silver saxifrage
     - Silverweed
+    - silverweed
     - Sisyrinchium
+    - sisyrinchium
     - Skimmia
+    - skimmia
     - Smoke Tree
+    - smoke tree
     - Sneezeweed
+    - sneezeweed
     - Sneezewort - Garden
+    - sneezewort - garden
     - Sneezewort - Wild
+    - sneezewort - wild
     - Snow in Summer
+    - snow in summer
     - Snowberry
+    - snowberry
     - Snowdrop
+    - snowdrop
     - Snowflake
+    - snowflake
     - Soapwort
+    - soapwort
     - Solomon's Seal
+    - solomon's seal
     - Sorrel
+    - sorrel
     - Sow Thistle
+    - sow thistle
     - Spear Thistle
+    - spear thistle
     - Speedwell
+    - speedwell
     - Sphagnum Moss
+    - sphagnum moss
     - Spider Flower
+    - spider flower
     - Spider Plant
+    - spider plant
     - Spiked Speedwell
+    - spiked speedwell
     - Spinach
+    - spinach
     - Spiraea
+    - spiraea
     - Spotted Deadnettle
+    - spotted deadnettle
     - Spotted Laurel, Japanese Laurel, Japanese Aucuba
+    - spotted laurel, japanese laurel, japanese aucuba
     - Spotted Spurge
+    - spotted spurge
     - Spring Starflower
+    - spring starflower
     - Spurrey
+    - spurrey
     - Squash
+    - squash
     - St John's Wort
+    - st john's wort
     - Staghorn Sumac
+    - staghorn sumac
     - Star Jasmine
+    - star jasmine
     - Statice
+    - statice
     - Stinking Mayweed
+    - stinking mayweed
     - Stitchwort
+    - stitchwort
     - Stocks
+    - stocks
     - Storksbill
+    - storksbill
     - Strawberry
+    - strawberry
     - Striped Squill
+    - striped squill
     - Sunflower
+    - sunflower
     - Swede
+    - swede
     - Sweet Box
+    - sweet box
     - Sweet Chestnut
+    - sweet chestnut
     - Sweet Pea
+    - sweet pea
     - Sweet Pepper
+    - sweet pepper
     - Sweet Potato
+    - sweet potato
     - Sweet Woodruff
+    - sweet woodruff
     - Swinecress
+    - swinecress
     - Sycamore
+    - sycamore
     - Tamarisk
+    - tamarisk
     - Tansy
+    - tansy
     - Teasel
+    - teasel
     - Three-cornered Leek
+    - three-cornered leek
     - Thrift
+    - thrift
     - Thyme
+    - thyme
     - Tiarella
+    - tiarella
     - Timothy Grass
+    - timothy grass
     - Toad Lily
+    - toad lily
     - Toadflax
+    - toadflax
     - Toadstool
+    - toadstool
     - Tobacco Plant
+    - tobacco plant
     - Tomato
+    - tomato
     - Tradescantia
+    - tradescantia
     - Traveller's Joy
+    - traveller's joy
     - Tree Peony
+    - tree peony
     - Tree Spinach
+    - tree spinach
     - Tree of Heaven
+    - tree of heaven
     - Tropaeolum
+    - tropaeolum
     - Trumpet Vine
+    - trumpet vine
     - Tulip
+    - tulip
     - Turnip
+    - turnip
     - Umbrella Plant
+    - umbrella plant
     - Umbrella Tree
+    - umbrella tree
     - Valerian
+    - valerian
     - Verbena
+    - verbena
     - Vetch
+    - vetch
     - Viburnum
+    - viburnum
     - Viola
+    - viola
     - Violet
+    - violet
     - Viper's Bugloss
+    - viper's bugloss
     - Virginia Creeper
+    - virginia creeper
     - Wall Lettuce
+    - wall lettuce
     - Wallflower
+    - wallflower
     - Wallflower
+    - wallflower
     - Walnut tree
+    - walnut tree
     - Wandering Jew
+    - wandering jew
     - Water Avens
+    - water avens
     - Water Chestnut
+    - water chestnut
     - Water Hyacinth
+    - water hyacinth
     - Water Lettuce
+    - water lettuce
     - Water Lily
+    - water lily
     - Water Plantain
+    - water plantain
     - Watercress
+    - watercress
     - Watercress
+    - watercress
     - Weigela
+    - weigela
     - Welsh Poppy
+    - welsh poppy
     - Wheat
+    - wheat
     - White Currant
+    - white currant
     - White Deadnettle
+    - white deadnettle
     - White Horehound
+    - white horehound
     - White Radish
+    - white radish
     - Whitebeam
+    - whitebeam
     - Wild Carrot
+    - wild carrot
     - Wild Garlic
+    - wild garlic
     - Wild Ginger
+    - wild ginger
     - Wild Lettuce
+    - wild lettuce
     - Wild Radish
+    - wild radish
     - Wild Rose
+    - wild rose
     - Wild Strawberry
+    - wild strawberry
     - Willow
+    - willow
     - Willowherb
+    - willowherb
     - Winter Aconite
+    - winter aconite
     - Winter Cress
+    - winter cress
     - Winter Heliotrope
+    - winter heliotrope
     - Winter Jasmine
+    - winter jasmine
     - Wisteria
+    - wisteria
     - Witch Hazel
+    - witch hazel
     - Woad
+    - woad
     - Wolfberry
+    - wolfberry
     - Wood Anemone
+    - wood anemone
     - Wood Avens
+    - wood avens
     - Wood Betony
+    - wood betony
     - Wood Sorrel
+    - wood sorrel
     - Yarrow
+    - yarrow
     - Yellow Archangel
+    - yellow archangel
     - Yellow Corydalis
+    - yellow corydalis
     - Yellow Loosestrife
+    - yellow loosestrife
     - Yellow Rattle
+    - yellow rattle
     - Yellow Toadflax
+    - yellow toadflax
     - Yellow-eyed Grass
+    - yellow-eyed grass
     - Yew
+    - yew
     - Yucca
+    - yucca
     - Zinnia
+    - zinnia
 
