@@ -21,9 +21,10 @@
     </one-of>
   </action>
 
-  <!--actions-->
+  <!--main actions-->
   <action name="daily_schedule">
     <one-of>
+      <item>know the daily schedule</item>
       <item>daily schedule</item>
       <item>the daily schedule</item>
       <item>i would like to know about the daily schedule</item>
@@ -33,11 +34,14 @@
       <item>how do i take care of my tortoise everyday</item>
       <item>what is the daily schedule</item>
       <item>what is the daily schedule like</item>
+      <item>how do I feed the tortoise</item>
+      <item>how do I feed my tortoise</item>
     </one-of>
   </action>
 
   <action name="bathing_schedule">
     <one-of>
+      <item>know the bathing schedule</item>
       <item>bathing schedule</item>
       <item>the bathing schedule</item>
       <item>i would like to know about the bathing schedule</item>
@@ -87,12 +91,168 @@
   <!--user answers-->
   <answer speaker="user">
     <one-of>
+      <item> that'd be <slot predicate="wh_plant"/> </item>
       <item> <slot predicate="wh_plant"/> </item>
       <item> it's <slot predicate="wh_plant"/> </item>
-      <item> <slot predicate="wh_day"/> </item>
       <item> it's <slot predicate="wh_day"/> </item>
+      <item> it's <slot predicate="wh_day"/> today </item>
+      <item> i want to walk the tortoise <slot predicate="location"/></item>
+      <item> i want to walk my tortoise <slot predicate="location"/></item>
+      <item> i want to walk it <slot predicate="location"/></item>
     </one-of>
   </answer>
+
+  <!--user questions-->
+  <question speaker="user" predicate="petting" type="wh_question">
+    <one-of>
+      <item>can I pet the tortoise</item>
+      <item>can I pet my tortoise</item>
+      <item>how do I pet the tortoise</item>
+      <item>how do I pet my tortoise</item>
+      <item>how does one pet a tortoise</item>
+      <item>can you pet a tortoise</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="walking" type="wh_question">
+    <one-of>
+      <item>can I walk the tortoise</item>
+      <item>can I walk my tortoise</item>
+      <item>how do I walk the tortoise</item>
+      <item>how do I walk my tortoise</item>
+      <item>how does one walk a tortoise</item>
+      <item>can you walk a tortoise</item>
+      <item>can I take the tortoise for a walk</item>
+      <item>can I take my tortoise for a walk</item>
+      <item>can I let the tortoise out of the terrarium</item>
+      <item>can I let my tortoise out of the terrarium</item>
+      <item>can I let the tortoise out</item>
+      <item>can I let my tortoise out</item>
+      <item>should I let the tortoise out</item>
+      <item>should I let my tortoise out</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="food_type" type="wh_question">
+    <one-of>
+      <item>what do I feed to my tortoise</item>
+      <item>what do I feed to the tortoise</item>
+      <item>what does a tortoise eat</item>
+      <item>what should a tortoise eat</item>
+      <item>what can a tortoise eat</item>
+      <item>what can I feed to my tortoise</item>
+      <item>what can I feed to the tortoise</item>
+      <item>what should I feed to the tortoise</item>
+      <item>what should I feed to my tortoise</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="care" type="wh_question">
+    <one-of>
+      <item>how do I take care of a tortoise</item>
+      <item>how do I take care of my tortoise</item>
+      <item>how does one take care of a tortoise</item>
+      <item>what do I need to do</item>
+      <item>what do I need to do to take care of a tortoise</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="food_amount" type="wh_question">
+    <one-of>
+      <item>how much food do I feed to my tortoise</item>
+      <item>how much food do I feed to the tortoise</item>
+      <item>how much does a tortoise eat</item>
+      <item>how much should a tortoise eat</item>
+      <item>how much can a tortoise eat</item>
+      <item>how much can I feed to my tortoise</item>
+      <item>how much can I feed to the tortoise</item>
+      <item>how much should I feed to the tortoise</item>
+      <item>how much should I feed to my tortoise</item>
+      <item>how much food</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="substrate" type="wh_question">
+    <one-of>
+      <item>do I need to change the substrate</item>
+      <item>do I need to change the soil</item>
+      <item>how do I change the substrate</item>
+      <item>how do I change the soil</item>
+      <item>should I change the substrate</item>
+      <item>should I change the soil</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="bathing time" type="wh_question">
+    <one-of>
+      <item>when do I bathe my tortoise</item>
+      <item>when do I bathe the tortoise</item>
+      <item>when should a tortoise be bathed</item>
+      <item>when can a tortoise be bathed</item>
+      <item>when can I bathe my tortoise</item>
+      <item>when can I bathe the tortoise</item>
+      <item>when should I bathe the tortoise</item>
+      <item>when should I bathe my tortoise</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="lamps" type="wh_question">
+    <one-of>
+      <item>what is the difference between the lamps</item>
+      <item>which lamp is the UVB</item>
+      <item>which lamp is the heat lamp</item>
+      <item>which lamp gives off heat</item>
+      <item>which lamp is which</item>
+      <item>how do I tell the lamps apart</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="moving" type="wh_question">
+    <one-of>
+      <item>why doesn't the tortoise move much</item>
+      <item>why doesn't my tortoise move much</item>
+      <item>is it bad if my tortoise doesn't move much</item>
+      <item>does a tortoise move much</item>
+      <item>why does the tortoise keep running around</item>
+      <item>why does my tortoise keep running around</item>
+      <item>why does the tortoise move so much</item>
+      <item>why does my tortoise move so much</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="holding" type="wh_question">
+    <one-of>
+      <item>how do I hold my tortoise</item>
+      <item>how do I hold the tortoise</item>
+      <item>how to hold a tortoise</item>
+      <item>how to hold the tortoise</item>
+      <item>how to hold my tortoise</item>
+      <item>how should I hold the tortoise</item>
+      <item>how should I hold my tortoise</item>
+      <item>how should I hold a tortoise</item>
+      <item>how does one hold a tortoise</item>
+      <item>how do I carry my tortoise</item>
+      <item>how do I carry the tortoise</item>
+      <item>how to carry a tortoise</item>
+      <item>how to carry the tortoise</item>
+      <item>how to carry my tortoise</item>
+      <item>how should I carry the tortoise</item>
+      <item>how should I carry my tortoise</item>
+      <item>how should I carry a tortoise</item>
+      <item>how does one carry a tortoise</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="schedule" type="wh_question">
+    <one-of>
+      <item>what is on today's schedule</item>
+      <item>what do I need to do today</item>
+      <item>what do I do today</item>
+      <item>what's the plan for today</item>
+      <item>what is the plan for today</item>
+      <item>what is today's itinerary</item>
+    </one-of>
+  </question>
 
   <!--individuals-->
   <individual name="dandelion">
@@ -155,6 +315,24 @@
     </one-of>
   </individual>
 
+  <individual name="inside">
+    <one-of>
+      <item>inside</item>
+      <item>in the house</item>
+      <item>in the apartament</item>
+      <item>on the floor</item>
+    </one-of>
+  </individual>
+  
+  <individual name="outside">
+    <one-of>
+      <item>outside</item>
+      <item>in the garden</item>
+      <item>on the lawn</item>
+      <item>in nature</item>
+    </one-of>
+  </individual>
+
   <!--finishing sentences-->
   <individual name="bathing_finished">
     <one-of>
@@ -168,6 +346,95 @@
     </one-of>
   </individual>
 
+  <!--system answers-->
+  <individual name="can_pet">
+    <one-of>
+      <item>you can pet the tortoise gently on the shell or on the head, if you want. do not try to touch its legs, as that will scare it. please be very gentle when petting the tortoise and don't do it too much</item>
+    </one-of>
+  </individual>
+
+  <individual name="cannot_walk">
+    <one-of>
+      <item>I'm sorry, but it's not a good idea to let your tortoise out in the apartament. the floors are not good for its legs, and it can catch a cold</item>
+    </one-of>
+  </individual>
+
+  <individual name="can_walk">
+    <one-of>
+      <item>as long as the weather is nice and it's warmer than fifteen degrees celsius, you can walk your tortoise outside in nature. make sure to keep an eye on it so it doesn't get lost and watch out for what it's eating</item>
+    </one-of>
+  </individual>
+
+  <individual name="tortoise_food">
+    <one-of>
+      <item>tortoises mostly eat grass and weeds, plants that would not be very nutritious to humans, like dandelions or clover. if you are unsure if a tortoise can eat a certain plant, you can always ask me</item>
+    </one-of>
+  </individual>
+
+  <individual name="care_explanations">
+    <one-of>
+      <item>taking care of a tortoise includes feeding it every day and keeping its enclosure clean, and bathing it once a week. i can give you the details for both the daily routine and how to bathe a tortoise</item>
+    </one-of>
+  </individual>
+
+  <individual name="amount_of_food">
+    <one-of>
+      <item>try to fill the food bowl to the brim, but without squishing down the food. you can see the following day how much of the food was left and adjust accordingly</item>
+    </one-of>
+  </individual>
+
+  <individual name="changing_substrate">
+    <one-of>
+      <item>the substrate in the enclosure needs to be changed every three months, so you probably do not have to do it while you're in charge of taking care of the tortoise. if you do, please contact its owner for more instructions</item>
+    </one-of>
+  </individual>
+
+  <individual name="saturday_baths">
+    <one-of>
+      <item>the tortoise should be bathed on saturday</item>
+    </one-of>
+  </individual>
+
+  <individual name="lamps_explanations">
+    <one-of>
+      <item>the round lamp is the heat lamp, and the long lamp is the UVB lamp</item>
+    </one-of>
+  </individual>
+
+  <individual name="cold_blooded">
+    <one-of>
+      <item>tortoises are cold-blooded animals, which means their activity levels depend on the temperature. if it is hot and sunny, they will walk around a lot, if it's colder, they will prefer to bask and sleep under the heat lamp</item>
+    </one-of>
+  </individual>
+
+  <individual name="how_to_hold">
+    <one-of>
+      <item>you shouldn't hold a tortoise unless you're moving it to its bath or its carrier; if you do, make sure to hold it gently but firmly around the shell, ideally providing some support for the legs</item>
+    </one-of>
+  </individual>
+
+  <individual name="saturday_schedule">
+    <one-of>
+      <item>on saturdays you should give the tortoise a bath and then feed it with pellets as a supplement</item>
+    </one-of>
+  </individual>
+
+  <individual name="monday_schedule">
+    <one-of>
+      <item>on mondays you should feed the tortoise and remember to add some calcium powder to the food</item>
+    </one-of>
+  </individual>
+
+  <individual name="other_schedule">
+    <one-of>
+      <item>today you should just feed the tortoise and add some pellets to its food</item>
+    </one-of>
+  </individual>
+
+
+
+
+
   <!--system questions-->
   <question speaker="system" predicate="wh_plant" type="wh_question">
     what plant do you want to know about
@@ -177,13 +444,17 @@
     let's see, what day is it today
   </question>
 
+  <question speaker="system" predicate="location" type="wh_question">
+    where do you want to walk your tortoise, outside or inside
+  </question>
+
   <!--system answers-->
   <!--the rest is generated in http-service-->
   <answer speaker="system" predicate="plant_edibility">
     okay, <slot predicate="plant_edibility"/>
   </answer>
 
-  <!--will this fix it?-->
+  <!--will this fix it? without it the alternative menu doesn't work-->
   <action name="wash_bowls">wash bowls</action>
   <action name="finish_bathing">finish bathing</action>
   <action name="prep_bath_details">prep bath details</action>
