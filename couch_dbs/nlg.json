@@ -9,7 +9,7 @@
     },
     {
         "match": "request(give_bath)",
-        "utterance": "Gently place the tortoise in the water and pour some of the water over its shell. Leave the tortoise for a few minutes, but keep an eye out on it."
+        "utterance": "Next gently place the tortoise in the water and pour some of the water over its shell. Leave the tortoise for a few minutes, but keep an eye out on it."
     },
     {
         "match": "request(fix_terrarium)",
@@ -50,7 +50,7 @@
     },
     {
         "match": "request(clean_leftovers)",
-        "utterance": "Pick out the leftover food from the terrarium to prevent it from going bad. Make sure to also take out poop if you see any."
+        "utterance": "Next, pick out the leftover food from the terrarium to prevent it from going bad. Make sure to also take out poop if you see any."
     },
     {
         "match": "request(wash_bowls)",
