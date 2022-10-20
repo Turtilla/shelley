@@ -50,6 +50,7 @@
 <predicate name="moving" sort="question_answer"/>
 <predicate name="holding" sort="question_answer"/>
 <predicate name="schedule" sort="question_answer"/>
+<predicate name="help" sort="question_answer"/>
 
 <!--sorts-->
 <sort name="plant" dynamic="true"/>
@@ -95,5 +96,6 @@
 <individual name="saturday_schedule" sort="question_answer"/>
 <individual name="monday_schedule" sort="question_answer"/>
 <individual name="other_schedule" sort="question_answer"/>
+<individual name="help_msg" sort="question_answer"/>
 
 </ontology>
