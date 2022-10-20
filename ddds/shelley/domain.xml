@@ -275,5 +275,14 @@
     </plan>
   </goal>  
 
+  <!--help-->
+  <goal type="resolve" question_type="wh_question" predicate="help">
+    <plan>
+      <inform>
+        <proposition predicate="help" value="help_msg"/>
+      </inform>
+    </plan>
+  </goal>
+
   
 </domain>
