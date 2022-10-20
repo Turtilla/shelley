@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ontology name="ShelleyOntology">
 
+<!--main actions-->
 <action name="daily_schedule"/>
 <action name="bathing_schedule"/>
 
+<!--incremental bath actions-->
 <action name="prep_bath"/>
 <action name="give_bath"/>
 <action name="fix_terrarium"/>
@@ -16,6 +18,7 @@
 <action name="do_health_check_details"/>
 <action name="finish_bathing_details"/>
 
+<!--incremental daily routine actions-->
 <action name="check_lights"/>
 <action name="clean_leftovers"/>
 <action name="wash_bowls"/>
@@ -28,22 +31,43 @@
 <action name="give_calcium"/>
 <action name="give_pellets"/>
 
+<!--predicates-->
 <predicate name="plant_edibility" sort="string"/>
 <predicate name="wh_plant" sort="plant"/>
 <predicate name="wh_day" sort="day"/>
 <predicate name="finished" sort="finished_action"/>
+<predicate name="location" sort="location_type"/>
 
+<!--Q&A predicates-->
+<predicate name="petting" sort="question_answer"/>
+<predicate name="walking" sort="question_answer"/>
+<predicate name="food_type" sort="question_answer"/>
+<predicate name="care" sort="question_answer"/>
+<predicate name="food_amount" sort="question_answer"/>
+<predicate name="substrate" sort="question_answer"/>
+<predicate name="bathing_time" sort="question_answer"/>
+<predicate name="lamps" sort="question_answer"/>
+<predicate name="moving" sort="question_answer"/>
+<predicate name="holding" sort="question_answer"/>
+<predicate name="schedule" sort="question_answer"/>
+
+<!--sorts-->
 <sort name="plant" dynamic="true"/>
 <sort name="finished_action" dynamic="false"/>
 <sort name="day" dynamic="false"/>
+<sort name="question_answer" dynamic="false"/>
+<sort name="location_type" dynamic="false"/>
 
+<!--plant individuals, probably unnecessary at this point-->
 <individual name="dandelion" sort="plant"/>
 <individual name="apple" sort="plant"/>
 <individual name="lettuce" sort="plant"/>
 
+<!--end of instruction individuals-->
 <individual name="daily_finished" sort="finished_action"/>
 <individual name="bathing_finished" sort="finished_action"/>
 
+<!--day individuals-->
 <individual name="monday" sort="day"/>
 <individual name="tuesday" sort="day"/>
 <individual name="wednesday" sort="day"/>
@@ -51,5 +75,25 @@
 <individual name="friday" sort="day"/>
 <individual name="saturday" sort="day"/>
 <individual name="sunday" sort="day"/>
+
+<!--location individuals-->
+<individual name="inside" sort="location_type"/>
+<individual name="outside" sort="location_type"/>
+
+<!--Q&A answer individuals-->
+<individual name="can_pet" sort="question_answer"/>
+<individual name="cannot_walk" sort="question_answer"/>
+<individual name="can_walk" sort="question_answer"/>
+<individual name="tortoise_food" sort="question_answer"/>
+<individual name="care_explanations" sort="question_answer"/>
+<individual name="amount_of_food" sort="question_answer"/>
+<individual name="changing_substrate" sort="question_answer"/>
+<individual name="saturday_baths" sort="question_answer"/>
+<individual name="lamps_explanations" sort="question_answer"/>
+<individual name="cold_blooded" sort="question_answer"/>
+<individual name="how_to_hold" sort="question_answer"/>
+<individual name="saturday_schedule" sort="question_answer"/>
+<individual name="monday_schedule" sort="question_answer"/>
+<individual name="other_schedule" sort="question_answer"/>
 
 </ontology>
