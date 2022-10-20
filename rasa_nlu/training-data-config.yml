@@ -63,139 +63,139 @@ nlu:
 - intent: question::plant_edibility
   examples: |
     - i want to know if a plant is edible
-    - i want to know if [Bird's Foot Trefoil](sort.plant) is edible
-    - i want to know if [Fiber Optic Grass](sort.plant) is edible
-    - i want to know if [Heliotrope](sort.plant) is edible
-    - i want to know if [Meadow Vetchling](sort.plant) is edible
-    - i want to know if [Persian Buttercup](sort.plant) is edible
-    - i want to know if [Plantago coronopus; Plantago maritima](sort.plant) is edible
-    - i want to know if [bears breeches](sort.plant) is edible
-    - i want to know if [mock orange](sort.plant) is edible
-    - i want to know if [umbrella tree](sort.plant) is edible
-    - i want to know if [wallflower](sort.plant) is edible
+    - i want to know if [Achillea millefolium](sort.plant) is edible
+    - i want to know if [Baneberry](sort.plant) is edible
+    - i want to know if [Cornflower](sort.plant) is edible
+    - i want to know if [Parsley](sort.plant) is edible
+    - i want to know if [Radish](sort.plant) is edible
+    - i want to know if [bramble](sort.plant) is edible
+    - i want to know if [common fleabane](sort.plant) is edible
+    - i want to know if [green alkanet](sort.plant) is edible
+    - i want to know if [magnolia](sort.plant) is edible
+    - i want to know if [sainfoin](sort.plant) is edible
     - i would like to know if a plant is edible
-    - i would like to know if [Bindweed](sort.plant) is edible
-    - i would like to know if [Foxglove](sort.plant) is edible
-    - i would like to know if [Lady's Bedstraw](sort.plant) is edible
-    - i would like to know if [Meconopsis](sort.plant) is edible
-    - i would like to know if [Water Lily](sort.plant) is edible
-    - i would like to know if [bluebell](sort.plant) is edible
-    - i would like to know if [cranberry](sort.plant) is edible
-    - i would like to know if [crossandra](sort.plant) is edible
-    - i would like to know if [hellebore](sort.plant) is edible
-    - i would like to know if [mistletoe](sort.plant) is edible
+    - i would like to know if [Beauty Berry](sort.plant) is edible
+    - i would like to know if [Blue Star Creeper](sort.plant) is edible
+    - i would like to know if [Lamb's Lettuce](sort.plant) is edible
+    - i would like to know if [Purple Loosestrife](sort.plant) is edible
+    - i would like to know if [Russian Sage](sort.plant) is edible
+    - i would like to know if [Sensitive Plant](sort.plant) is edible
+    - i would like to know if [creeping thistle](sort.plant) is edible
+    - i would like to know if [opuntia cactus](sort.plant) is edible
+    - i would like to know if [pampas grass](sort.plant) is edible
+    - i would like to know if [sneezeweed](sort.plant) is edible
     - tell me if a plant is edible
-    - tell me if [Chicory](sort.plant) is edible
-    - tell me if [Firethorn](sort.plant) is edible
-    - tell me if [Pasque Flower](sort.plant) is edible
-    - tell me if [Wild Radish](sort.plant) is edible
-    - tell me if [bergamot](sort.plant) is edible
-    - tell me if [columbine](sort.plant) is edible
-    - tell me if [creeping jenny](sort.plant) is edible
-    - tell me if [grape](sort.plant) is edible
-    - tell me if [phacelia,](sort.plant) is edible
-    - tell me if [viper's bugloss](sort.plant) is edible
-    - can tortoises eat [Cuckoo Flower](sort.plant)
-    - can tortoises eat [Elodea](sort.plant)
-    - can tortoises eat [Hellebore](sort.plant)
-    - can tortoises eat [Jade Plant](sort.plant)
-    - can tortoises eat [Mignonette,](sort.plant)
-    - can tortoises eat [Sedum Reflexum](sort.plant)
-    - can tortoises eat [Sweet Potato](sort.plant)
-    - can tortoises eat [heliotrope](sort.plant)
-    - can tortoises eat [holly](sort.plant)
-    - can tortoises eat [panda plant](sort.plant)
-    - can a tortoise eat [Forsythia](sort.plant)
-    - can a tortoise eat [Purple Bell Vine](sort.plant)
-    - can a tortoise eat [Squash](sort.plant)
-    - can a tortoise eat [Wild Strawberry](sort.plant)
-    - can a tortoise eat [dumb cane](sort.plant)
-    - can a tortoise eat [groundsel](sort.plant)
-    - can a tortoise eat [laburnum](sort.plant)
-    - can a tortoise eat [peace lily](sort.plant)
-    - can a tortoise eat [red maple](sort.plant)
-    - can a tortoise eat [red valerian](sort.plant)
-    - can my tortoise eat [Horsetail](sort.plant)
-    - can my tortoise eat [Yew](sort.plant)
-    - can my tortoise eat [brunnera](sort.plant)
-    - can my tortoise eat [burclover](sort.plant)
-    - can my tortoise eat [euphorbia spp.](sort.plant)
-    - can my tortoise eat [leopard's bane](sort.plant)
-    - can my tortoise eat [roundleaf cranesbill geranium](sort.plant)
-    - can my tortoise eat [white currant](sort.plant)
+    - tell me if [Celosia](sort.plant) is edible
+    - tell me if [Hoary Cress](sort.plant) is edible
+    - tell me if [London Plane](sort.plant) is edible
+    - tell me if [bacopa](sort.plant) is edible
+    - tell me if [cabomba](sort.plant) is edible
+    - tell me if [fennel](sort.plant) is edible
+    - tell me if [poached egg plant](sort.plant) is edible
+    - tell me if [squash](sort.plant) is edible
+    - tell me if [virginia creeper](sort.plant) is edible
+    - tell me if [yellow archangel](sort.plant) is edible
+    - can tortoises eat [Black-eyed Susan](sort.plant)
+    - can tortoises eat [Castor Oil Plant](sort.plant)
+    - can tortoises eat [Cornflower](sort.plant)
+    - can tortoises eat [Honesty](sort.plant)
+    - can tortoises eat [Lily Turf](sort.plant)
+    - can tortoises eat [Musa acuminata; Musa balbisiana](sort.plant)
+    - can tortoises eat [cosmos](sort.plant)
+    - can tortoises eat [cress](sort.plant)
+    - can tortoises eat [elm](sort.plant)
+    - can tortoises eat [yellow toadflax](sort.plant)
+    - can a tortoise eat [Azalea](sort.plant)
+    - can a tortoise eat [Cauliflower](sort.plant)
+    - can a tortoise eat [Deutzia](sort.plant)
+    - can a tortoise eat [Hawkweed](sort.plant)
+    - can a tortoise eat [Mahonia](sort.plant)
+    - can a tortoise eat [Turnip](sort.plant)
+    - can a tortoise eat [dracaena](sort.plant)
+    - can a tortoise eat [jacob's ladder](sort.plant)
+    - can a tortoise eat [mouse-ear hawkweed](sort.plant)
+    - can a tortoise eat [umbrella plant](sort.plant)
+    - can my tortoise eat [Wall Lettuce](sort.plant)
+    - can my tortoise eat [Yellow Archangel](sort.plant)
+    - can my tortoise eat [acer](sort.plant)
+    - can my tortoise eat [basil](sort.plant)
+    - can my tortoise eat [fiber optic grass](sort.plant)
+    - can my tortoise eat [mignonette,](sort.plant)
+    - can my tortoise eat [poppy](sort.plant)
+    - can my tortoise eat [spiraea](sort.plant)
     - can my tortoise eat [wood betony](sort.plant)
-    - can my tortoise eat [yellow toadflax](sort.plant)
+    - can my tortoise eat [yellow-eyed grass](sort.plant)
     - is [Burnet](sort.plant) edible
-    - is [Chia](sort.plant) edible
-    - is [Curry Plant](sort.plant) edible
-    - is [Persicaria](sort.plant) edible
-    - is [chard](sort.plant) edible
-    - is [hops](sort.plant) edible
-    - is [jerusalem artichoke](sort.plant) edible
-    - is [millet](sort.plant) edible
-    - is [oleander](sort.plant) edible
-    - is [red bistort](sort.plant) edible
-    - can [Hellebore](sort.plant) be given to a tortoise
-    - can [Purple Loosestrife](sort.plant) be given to a tortoise
-    - can [Sycamore](sort.plant) be given to a tortoise
-    - can [Tropaeolum](sort.plant) be given to a tortoise
-    - can [acca](sort.plant) be given to a tortoise
-    - can [chionodoxa](sort.plant) be given to a tortoise
-    - can [globe artichoke](sort.plant) be given to a tortoise
-    - can [greater celandine](sort.plant) be given to a tortoise
-    - can [lavatera](sort.plant) be given to a tortoise
-    - can [red bartsia](sort.plant) be given to a tortoise
-    - can [Euonymus](sort.plant) be fed to a tortoise
-    - can [Mulberry Tree](sort.plant) be fed to a tortoise
-    - can [Silky Oak](sort.plant) be fed to a tortoise
-    - can [Sweet Chestnut](sort.plant) be fed to a tortoise
-    - can [Wolfberry](sort.plant) be fed to a tortoise
-    - can [clivia](sort.plant) be fed to a tortoise
-    - can [jerusalem sage](sort.plant) be fed to a tortoise
-    - can [prickly lettuce](sort.plant) be fed to a tortoise
-    - can [rhubarb](sort.plant) be fed to a tortoise
-    - can [wild ginger](sort.plant) be fed to a tortoise
-    - can [Castor Oil Plant](sort.plant) be given to tortoises
-    - can [Comfrey](sort.plant) be given to tortoises
-    - can [Hazel](sort.plant) be given to tortoises
-    - can [Ivy](sort.plant) be given to tortoises
-    - can [Jacaranda](sort.plant) be given to tortoises
-    - can [Red Currant](sort.plant) be given to tortoises
-    - can [Wild Radish](sort.plant) be given to tortoises
-    - can [agapanthus](sort.plant) be given to tortoises
-    - can [love-lies-bleeding](sort.plant) be given to tortoises
-    - can [rocket](sort.plant) be given to tortoises
-    - can [Deadly Nightshade](sort.plant) be fed to tortoises
-    - can [Eucalyptus](sort.plant) be fed to tortoises
-    - can [easter cactus](sort.plant) be fed to tortoises
-    - can [golden shrimp plant](sort.plant) be fed to tortoises
-    - can [lily](sort.plant) be fed to tortoises
-    - can [mallow](sort.plant) be fed to tortoises
-    - can [mossy saxifrage](sort.plant) be fed to tortoises
-    - can [oak tree](sort.plant) be fed to tortoises
-    - can [pomegranate](sort.plant) be fed to tortoises
-    - can [skimmia](sort.plant) be fed to tortoises
-    - can I give my tortoise [Bacopa](sort.plant)
-    - can I give my tortoise [Cranesbill Geranium](sort.plant)
-    - can I give my tortoise [Plum  — Fruit](sort.plant)
-    - can I give my tortoise [Stitchwort](sort.plant)
-    - can I give my tortoise [field madder](sort.plant)
-    - can I give my tortoise [lime](sort.plant)
-    - can I give my tortoise [morning glory](sort.plant)
-    - can I give my tortoise [pineapple weed](sort.plant)
-    - can I give my tortoise [primula](sort.plant)
-    - can I give my tortoise [water chestnut](sort.plant)
+    - is [Gentian](sort.plant) edible
+    - is [Ground Ivy](sort.plant) edible
+    - is [Pennyroyal](sort.plant) edible
+    - is [blue potato bush](sort.plant) edible
+    - is [creeping thistle](sort.plant) edible
+    - is [horse chestnut](sort.plant) edible
+    - is [morning glory](sort.plant) edible
+    - is [sorrel](sort.plant) edible
+    - is [watercress](sort.plant) edible
+    - can [Bird of Paradise](sort.plant) be given to a tortoise
+    - can [Bluebell](sort.plant) be given to a tortoise
+    - can [Broadleaf Stonecrop](sort.plant) be given to a tortoise
+    - can [Chicorum endivia](sort.plant) be given to a tortoise
+    - can [Gazania](sort.plant) be given to a tortoise
+    - can [Geum - Garden Plant](sort.plant) be given to a tortoise
+    - can [Peach](sort.plant) be given to a tortoise
+    - can [gasteria](sort.plant) be given to a tortoise
+    - can [red maple](sort.plant) be given to a tortoise
+    - can [wild carrot](sort.plant) be given to a tortoise
+    - can [Columbine](sort.plant) be fed to a tortoise
+    - can [Malope Mallow](sort.plant) be fed to a tortoise
+    - can [Mushroom](sort.plant) be fed to a tortoise
+    - can [Shasta Daisy](sort.plant) be fed to a tortoise
+    - can [Strawberry](sort.plant) be fed to a tortoise
+    - can [Sweet Woodruff](sort.plant) be fed to a tortoise
+    - can [corn marigold](sort.plant) be fed to a tortoise
+    - can [marjoram](sort.plant) be fed to a tortoise
+    - can [okra](sort.plant) be fed to a tortoise
+    - can [silver ragwort](sort.plant) be fed to a tortoise
+    - can [Jerusalem Sage](sort.plant) be given to tortoises
+    - can [Mimulus](sort.plant) be given to tortoises
+    - can [Ox-eye Daisy](sort.plant) be given to tortoises
+    - can [curry plant](sort.plant) be given to tortoises
+    - can [michaelmas daisy](sort.plant) be given to tortoises
+    - can [mountain ash](sort.plant) be given to tortoises
+    - can [myrtle](sort.plant) be given to tortoises
+    - can [okra](sort.plant) be given to tortoises
+    - can [radish](sort.plant) be given to tortoises
+    - can [solomon's seal](sort.plant) be given to tortoises
+    - can [Chinese Cabbage](sort.plant) be fed to tortoises
+    - can [Grape Vine](sort.plant) be fed to tortoises
+    - can [Greater Celandine](sort.plant) be fed to tortoises
+    - can [Hop Clover](sort.plant) be fed to tortoises
+    - can [Maltese Cross](sort.plant) be fed to tortoises
+    - can [Peace Lily](sort.plant) be fed to tortoises
+    - can [Red Bistort](sort.plant) be fed to tortoises
+    - can [bramble](sort.plant) be fed to tortoises
+    - can [broccoli](sort.plant) be fed to tortoises
+    - can [ground ivy](sort.plant) be fed to tortoises
+    - can I give my tortoise [Acca](sort.plant)
+    - can I give my tortoise [Parsnip](sort.plant)
+    - can I give my tortoise [Peperomia](sort.plant)
+    - can I give my tortoise [Scotch Thistle](sort.plant)
+    - can I give my tortoise [Yew](sort.plant)
+    - can I give my tortoise [chili pepper](sort.plant)
+    - can I give my tortoise [everlasting flower](sort.plant)
+    - can I give my tortoise [privet](sort.plant)
+    - can I give my tortoise [spinach](sort.plant)
+    - can I give my tortoise [winter jasmine](sort.plant)
     - tell me about a plant
-    - tell me about [Aeonium](sort.plant)
-    - tell me about [Cotoneaster](sort.plant)
-    - tell me about [Easter Cactus](sort.plant)
-    - tell me about [Gloxinia](sort.plant)
-    - tell me about [Goat's Beard](sort.plant)
-    - tell me about [Panda Plant](sort.plant)
-    - tell me about [Welsh Poppy](sort.plant)
-    - tell me about [basket of gold](sort.plant)
-    - tell me about [petunia](sort.plant)
-    - tell me about [white currant](sort.plant)
+    - tell me about [Citrus Fruits](sort.plant)
+    - tell me about [Crown Imperial Fritillary](sort.plant)
+    - tell me about [Kidney Vetch](sort.plant)
+    - tell me about [Ragwort](sort.plant)
+    - tell me about [Red Maple](sort.plant)
+    - tell me about [bromeliad](sort.plant)
+    - tell me about [kidney vetch](sort.plant)
+    - tell me about [kidney weed](sort.plant)
+    - tell me about [poached egg plant](sort.plant)
+    - tell me about [toadflax](sort.plant)
     - edibility
     - plant
 
@@ -317,6 +317,16 @@ nlu:
     - what is the plan for today
     - what is today's itinerary
 
+- intent: question::help
+  examples: |
+    - help
+    - help me
+    - how can you help me
+    - what can you help me with
+    - what do you do
+    - what can you tell me
+    - what questions can you answer
+
 - intent: answer
   examples: |
     - [you can pet the tortoise gently on the shell or on the head, if you want. do not try to touch its legs, as that will scare it. please be very gentle when petting the tortoise and don't do it too much]{"entity": "sort.question_answer", "value": "individual.can_pet"}
@@ -333,6 +343,7 @@ nlu:
     - [on saturdays you should give the tortoise a bath and then feed it with pellets as a supplement]{"entity": "sort.question_answer", "value": "individual.saturday_schedule"}
     - [on mondays you should feed the tortoise and remember to add some calcium powder to the food]{"entity": "sort.question_answer", "value": "individual.monday_schedule"}
     - [today you should just feed the tortoise and add some pellets to its food]{"entity": "sort.question_answer", "value": "individual.other_schedule"}
+    - [I am a dialogue system designed to help you with taking care of a tortoise. I can tell you about the daily routine, about bathing a tortoise, about the edibility of different plants, and answer some questions that might pop into your head on the way; when I am giving you instructions step by step, please say something like "done" when you've completed a step so that I know when I can continue. If I don't understand what you said, try to repeat it as a full sentence. There is a chance I cannot reply to what you said though, as I sadly do not know everything. I hope I will be of help either way!]{"entity": "sort.question_answer", "value": "individual.help_message"}
     - [nice! remember to repeat the same steps every day to keep your tortoise happy]{"entity": "sort.finished_action", "value": "individual.daily_finished"}
     - [good job! that's all that there is to bathing a tortoise]{"entity": "sort.finished_action", "value": "individual.bathing_finished"}
     - [inside]{"entity": "sort.location_type", "value": "individual.inside"}
@@ -360,46 +371,46 @@ nlu:
     - [friday]{"entity": "sort.day", "value": "individual.friday"}
     - [saturday]{"entity": "sort.day", "value": "individual.saturday"}
     - [sunday]{"entity": "sort.day", "value": "individual.sunday"}
-    - [Red Hot Poker](sort.plant)
-    - [traveller's joy](sort.plant)
-    - [Toad Lily](sort.plant)
-    - [hollyhock](sort.plant)
-    - [Goat's Beard](sort.plant)
-    - [auricula](sort.plant)
-    - [Acca](sort.plant)
-    - [dropwort](sort.plant)
-    - [mind-your-own-business](sort.plant)
-    - [Purslane](sort.plant)
-    - that'd be [Bougainvillea](sort.plant)
-    - that'd be [Henbit](sort.plant)
-    - that'd be [Miner's Lettuce](sort.plant)
-    - that'd be [Persicaria](sort.plant)
-    - that'd be [Red Maple](sort.plant)
-    - that'd be [Rue](sort.plant)
-    - that'd be [cineraria](sort.plant)
-    - that'd be [coreopsis](sort.plant)
-    - that'd be [primrose](sort.plant)
-    - that'd be [yellow corydalis](sort.plant)
-    - [Astrantia](sort.plant)
-    - [Coriander](sort.plant)
-    - [Fritillary](sort.plant)
-    - [Fumitory](sort.plant)
-    - [Ground Ivy](sort.plant)
-    - [Panda Plant](sort.plant)
-    - [bears breeches](sort.plant)
-    - [black mondo grass](sort.plant)
-    - [clover](sort.plant)
-    - [flaming katy](sort.plant)
-    - it's [Astrantia](sort.plant)
-    - it's [Persian Buttercup](sort.plant)
-    - it's [Yellow-eyed Grass](sort.plant)
-    - it's [aluminium plant](sort.plant)
-    - it's [china doll](sort.plant)
-    - it's [flamingo flower](sort.plant)
-    - it's [japanese painted fern](sort.plant)
-    - it's [lily](sort.plant)
-    - it's [marrow](sort.plant)
-    - it's [okra](sort.plant)
+    - [Virginia Creeper](sort.plant)
+    - [cogongrass](sort.plant)
+    - [Viola](sort.plant)
+    - [wallflower](sort.plant)
+    - [Lupin](sort.plant)
+    - [Ferns](sort.plant)
+    - [chenille plant](sort.plant)
+    - [Begonia](sort.plant)
+    - [rose](sort.plant)
+    - [chard](sort.plant)
+    - that'd be [Brugmansia spp.](sort.plant)
+    - that'd be [Million Bells](sort.plant)
+    - that'd be [Prickly Lettuce](sort.plant)
+    - that'd be [White Horehound](sort.plant)
+    - that'd be [carrot](sort.plant)
+    - that'd be [fumitory](sort.plant)
+    - that'd be [gloxinia](sort.plant)
+    - that'd be [honeywort](sort.plant)
+    - that'd be [melon](sort.plant)
+    - that'd be [scurvy grass](sort.plant)
+    - [Aloe](sort.plant)
+    - [Dogwood](sort.plant)
+    - [Sambucus Nigra](sort.plant)
+    - [Scentless Mayweed](sort.plant)
+    - [cat's ear](sort.plant)
+    - [chenille plant](sort.plant)
+    - [elephant's ears](sort.plant)
+    - [lady's mantle](sort.plant)
+    - [sneezewort - garden](sort.plant)
+    - [zinnia](sort.plant)
+    - it's [Bristly Oxtongue](sort.plant)
+    - it's [Friendship Plant](sort.plant)
+    - it's [Magnolia](sort.plant)
+    - it's [Thrift](sort.plant)
+    - it's [Tree Peony](sort.plant)
+    - it's [Yellow Loosestrife](sort.plant)
+    - it's [leopard's bane](sort.plant)
+    - it's [ox-eye daisy](sort.plant)
+    - it's [stocks](sort.plant)
+    - it's [striped squill](sort.plant)
     - it's [friday]{"entity": "sort.day", "value": "individual.friday"}
     - it's [monday]{"entity": "sort.day", "value": "individual.monday"}
     - it's [saturday]{"entity": "sort.day", "value": "individual.saturday"}
@@ -440,28 +451,28 @@ nlu:
     - i want to walk it [outside]{"entity": "sort.location_type", "value": "individual.outside"}
     - yes [you can pet the tortoise gently on the shell or on the head, if you want. do not try to touch its legs, as that will scare it. please be very gentle when petting the tortoise and don't do it too much]{"entity": "sort.question_answer", "value": "individual.can_pet"}
     - yes [you shouldn't hold a tortoise unless you're moving it to its bath or its carrier; if you do, make sure to hold it gently but firmly around the shell, ideally providing some support for the legs]{"entity": "sort.question_answer", "value": "individual.how_to_hold"}
-    - yes [outside]{"entity": "sort.location_type", "value": "individual.outside"}
-    - yes [bring them through to the jolly seven](sort.string)
-    - yes [sunday]{"entity": "sort.day", "value": "individual.sunday"}
-    - yes [Purslane](sort.plant)
-    - yes that'd be [yellow corydalis](sort.plant)
-    - yes [flaming katy](sort.plant)
-    - yes it's [okra](sort.plant)
-    - yes it's [saturday]{"entity": "sort.day", "value": "individual.saturday"} today
-    - yes i want to walk the tortoise [on the floor]{"entity": "sort.location_type", "value": "individual.inside"}
-    - yes i want to walk my tortoise [outside]{"entity": "sort.location_type", "value": "individual.outside"}
+    - yes [on the floor]{"entity": "sort.location_type", "value": "individual.inside"}
+    - yes [calm down and count to six](sort.string)
+    - yes [saturday]{"entity": "sort.day", "value": "individual.saturday"}
+    - yes [rose](sort.plant)
+    - yes that'd be [melon](sort.plant)
+    - yes [sneezewort - garden](sort.plant)
+    - yes it's [stocks](sort.plant)
+    - yes it's [monday]{"entity": "sort.day", "value": "individual.monday"} today
+    - yes i want to walk the tortoise [inside]{"entity": "sort.location_type", "value": "individual.inside"}
+    - yes i want to walk my tortoise [on the lawn]{"entity": "sort.location_type", "value": "individual.outside"}
     - no [I'm sorry, but it's not a good idea to let your tortoise out in the apartament. the floors are not good for its legs, and it can catch a cold]{"entity": "sort.question_answer", "value": "individual.cannot_walk"}
     - no [on saturdays you should give the tortoise a bath and then feed it with pellets as a supplement]{"entity": "sort.question_answer", "value": "individual.saturday_schedule"}
-    - no [in the garden]{"entity": "sort.location_type", "value": "individual.outside"}
-    - no [noone counts toes like an eight toed guy](sort.string)
-    - no [Red Hot Poker](sort.plant)
-    - no that'd be [Bougainvillea](sort.plant)
-    - no [Astrantia](sort.plant)
-    - no it's [Astrantia](sort.plant)
-    - no it's [friday]{"entity": "sort.day", "value": "individual.friday"}
-    - no it's [sunday]{"entity": "sort.day", "value": "individual.sunday"} today
-    - no i want to walk the tortoise [on the lawn]{"entity": "sort.location_type", "value": "individual.outside"}
-    - no i want to walk it [in nature]{"entity": "sort.location_type", "value": "individual.outside"}
+    - no [outside]{"entity": "sort.location_type", "value": "individual.outside"}
+    - no [bring them through to the jolly seven](sort.string)
+    - no [sunday]{"entity": "sort.day", "value": "individual.sunday"}
+    - no [chard](sort.plant)
+    - no that'd be [scurvy grass](sort.plant)
+    - no [zinnia](sort.plant)
+    - no it's [striped squill](sort.plant)
+    - no it's [saturday]{"entity": "sort.day", "value": "individual.saturday"} today
+    - no i want to walk the tortoise [on the floor]{"entity": "sort.location_type", "value": "individual.inside"}
+    - no i want to walk my tortoise [outside]{"entity": "sort.location_type", "value": "individual.outside"}
 
 - intent: answer_negation
   examples: |
@@ -479,6 +490,7 @@ nlu:
     - not [on saturdays you should give the tortoise a bath and then feed it with pellets as a supplement]{"entity": "sort.question_answer", "value": "individual.saturday_schedule"}
     - not [on mondays you should feed the tortoise and remember to add some calcium powder to the food]{"entity": "sort.question_answer", "value": "individual.monday_schedule"}
     - not [today you should just feed the tortoise and add some pellets to its food]{"entity": "sort.question_answer", "value": "individual.other_schedule"}
+    - not [I am a dialogue system designed to help you with taking care of a tortoise. I can tell you about the daily routine, about bathing a tortoise, about the edibility of different plants, and answer some questions that might pop into your head on the way; when I am giving you instructions step by step, please say something like "done" when you've completed a step so that I know when I can continue. If I don't understand what you said, try to repeat it as a full sentence. There is a chance I cannot reply to what you said though, as I sadly do not know everything. I hope I will be of help either way!]{"entity": "sort.question_answer", "value": "individual.help_message"}
     - not [nice! remember to repeat the same steps every day to keep your tortoise happy]{"entity": "sort.finished_action", "value": "individual.daily_finished"}
     - not [good job! that's all that there is to bathing a tortoise]{"entity": "sort.finished_action", "value": "individual.bathing_finished"}
     - not [inside]{"entity": "sort.location_type", "value": "individual.inside"}
@@ -496,16 +508,16 @@ nlu:
     - not [friday]{"entity": "sort.day", "value": "individual.friday"}
     - not [saturday]{"entity": "sort.day", "value": "individual.saturday"}
     - not [sunday]{"entity": "sort.day", "value": "individual.sunday"}
-    - not [dog's mercury](sort.plant)
-    - not [sorrel](sort.plant)
-    - not [bryony](sort.plant)
-    - not [cow parsley](sort.plant)
-    - not [Saxifrage](sort.plant)
-    - not [Pea](sort.plant)
-    - not [Spiked Speedwell](sort.plant)
-    - not [malabar spinach](sort.plant)
-    - not [snowflake](sort.plant)
-    - not [china doll](sort.plant)
+    - not [Himalayan Balsam](sort.plant)
+    - not [bristly oxtongue](sort.plant)
+    - not [woad](sort.plant)
+    - not [coleus](sort.plant)
+    - not [Salvia](sort.plant)
+    - not [Pansy](sort.plant)
+    - not [Ceratostigma](sort.plant)
+    - not [cornflower](sort.plant)
+    - not [jerusalem cherry](sort.plant)
+    - not [pittosporum](sort.plant)
 
 - intent: NEGATIVE
   examples: |
