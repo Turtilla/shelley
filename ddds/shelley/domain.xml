@@ -142,6 +142,138 @@
     </plan>
   </goal>
 
-  <!--other questions TODO LATER-->
+  <!--other questions-->
 
+  <!--petting-->
+  <goal type="resolve" question_type="wh_question" predicate="petting">
+    <plan>
+      <inform>
+        <proposition predicate="petting" value="can_pet"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--walking outside or inside-->
+  <goal type="resolve" question_type="wh_question" predicate="walking">
+    <plan>
+      <findout type="wh_question" predicate="location"/>
+      <if>
+        <is_private_belief_or_shared_commitment predicate="location" value="inside"/>
+        <then>
+          <inform>
+            <proposition predicate="walking" value="cannot_walk"/>
+          </inform>
+        </then>
+        <else>
+          <inform>
+            <proposition predicate="walking" value="can_walk"/>
+          </inform>
+        </else>
+      </if>
+    </plan>
+  </goal>
+
+  <!--type of food-->
+  <goal type="resolve" question_type="wh_question" predicate="food_type">
+    <plan>
+      <inform>
+        <proposition predicate="food_type" value="tortoise_food"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--how to take care-->
+  <goal type="resolve" question_type="wh_question" predicate="care">
+    <plan>
+      <inform>
+        <proposition predicate="care" value="care_explanations"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--how much food-->
+  <goal type="resolve" question_type="wh_question" predicate="food_amount">
+    <plan>
+      <inform>
+        <proposition predicate="food_amount" value="amount_of_food"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--substrate-->
+  <goal type="resolve" question_type="wh_question" predicate="substrate">
+    <plan>
+      <inform>
+        <proposition predicate="substrate" value="changing_substrate"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--when to bathe-->
+  <goal type="resolve" question_type="wh_question" predicate="bathing_time">
+    <plan>
+      <inform>
+        <proposition predicate="bathing_time" value="saturday_baths"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--which lamp is which-->
+  <goal type="resolve" question_type="wh_question" predicate="lamps">
+    <plan>
+      <inform>
+        <proposition predicate="lamps" value="lamps_explanations"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--moving-->
+  <goal type="resolve" question_type="wh_question" predicate="moving">
+    <plan>
+      <inform>
+        <proposition predicate="moving" value="cold_blooded"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--how to hold-->
+  <goal type="resolve" question_type="wh_question" predicate="holding">
+    <plan>
+      <inform>
+        <proposition predicate="holding" value="how_to_hold"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--today's schedule-->
+  <goal type="resolve" question_type="wh_question" predicate="schedule">
+    <plan>
+      <findout type="wh_question" predicate="wh_day"/>
+      <if> 
+        <is_private_belief_or_shared_commitment predicate="wh_day" value="saturday"/>
+        <then>
+          <inform>
+            <proposition predicate="schedule" value="saturday_schedule"/>
+          </inform>
+        </then>
+        <else>
+          <if>
+            <is_private_belief_or_shared_commitment predicate="wh_day" value="monday"/>
+            <then>
+              <inform>
+                <proposition predicate="schedule" value="monday_schedule"/>
+              </inform>
+            </then>
+            <else>
+              <inform>
+                <proposition predicate="schedule" value="other_schedule"/>
+              </inform>
+            </else>
+          </if>
+        </else>
+      </if>
+    </plan>
+  </goal>  
+
+  
 </domain>
