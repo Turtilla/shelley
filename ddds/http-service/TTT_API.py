@@ -104,3 +104,4 @@ def get_plant_csv(filename):
         writer = csv.writer(f)
         for plant in sorted_plants:
             writer.writerow([plant])
+            writer.writerow([plant.lower()])
