@@ -5,7 +5,7 @@
     },
     {
         "match": "request(prep_bath)",
-        "utterance": "First you will need to get a large container that the tortoise cannot get out of and fill it with a bit of lukewarmwater."
+        "utterance": "Baths are usually given on Saturdays. First you will need to get a large container that the tortoise cannot get out of and fill it with a bit of lukewarmwater."
     },
     {
         "match": "request(give_bath)",
@@ -86,7 +86,7 @@
     },
     {
         "match": "request(give_pellets)",
-        "utterance": "The jar with pellets should be by the terrarium. Sprinkle about a teaspoonfull on the food. If you want, you can moisten them a bit and mush them up before you to that, but it is not necessary."
+        "utterance": "The jar with pellets should be by the terrarium. Sprinkle about a teaspoonfull on the food. If you want, you can moisten them a bit and mush them up before you do that, but it is not necessary."
     },
 
     {

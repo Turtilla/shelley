@@ -125,7 +125,7 @@
             {
                 "attribute": "name",
                 "type": "text/plain",
-                "value": "Another text to show if the image cannot be shown"
+                "value": "A container of pellets."
             },
             {
                 "attribute": "image",
@@ -140,7 +140,7 @@
             {
                 "attribute": "name",
                 "type": "text/plain",
-                "value": "Another text to show if the image cannot be shown"
+                "value": "A container of calcium powder."
             },
             {
                 "attribute": "image",
@@ -185,7 +185,7 @@
             {
                 "attribute": "name",
                 "type": "text/plain",
-                "value": "Another text to show if the image cannot be shown"
+                "value": "A tortoise walking in the grass."
             },
             {
                 "attribute": "image",
