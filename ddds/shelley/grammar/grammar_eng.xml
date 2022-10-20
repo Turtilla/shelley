@@ -254,6 +254,18 @@
     </one-of>
   </question>
 
+  <question speaker="user" predicate="help" type="wh_question">
+    <one-of>
+      <item>help</item>
+      <item>help me</item>
+      <item>how can you help me</item>
+      <item>what can you help me with</item>
+      <item>what do you do</item>
+      <item>what can you tell me</item>
+      <item>what questions can you answer</item>
+    </one-of>
+  </question>
+
   <!--individuals-->
   <individual name="dandelion">
     <one-of>
@@ -431,9 +443,11 @@
     </one-of>
   </individual>
 
-
-
-
+  <individual name="help_msg">
+    <one-of>
+      <item>I can tell you about the daily routine, about bathing a tortoise, about the edibility of different plants, and answer some questions that might pop into your head on the way. when I am giving you instructions step by step, please say something like done when you've completed a step so that I know when I can continue. If I don't understand what you said, try to repeat it as a full sentence. There is a chance I cannot reply to what you said though, as I sadly do not know everything. I hope I will be of help either way!</item>
+    </one-of>
+  </individual>
 
   <!--system questions-->
   <question speaker="system" predicate="wh_plant" type="wh_question">
