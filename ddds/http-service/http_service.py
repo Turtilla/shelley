@@ -164,7 +164,7 @@ def edibility():
     # retrieving the information from the dict
     if len(plant_dict) == 0:
       # if there are no results in the search
-      return query_response(value='I have no information about such a plant. Just to be safe, please do not feed it to the tortoise.', grammar_entry=None)
+      return query_response(value='I have no information about such a plant. Just to be safe, please do not feed it to the tortoise', grammar_entry=None)
     elif plant in plant_dict:
       # if the plant name is present in the dictionary
       answer = plant_dict[plant]['edibility']
@@ -173,7 +173,7 @@ def edibility():
       # if there are results but none of them match 1:1; the first one is then selected (as that one is often the best match, I am unsure how the website's search works)
       plant_guess = next(iter(plant_dict.items()))[0]
       answer = plant_dict[plant_guess]['edibility']
-      return query_response(value=f'I found {plant_guess}. It has the status {answer}. If you meant another plant, try giving me its full name or latin name.', grammar_entry=None)
+      return query_response(value=f'I found {plant_guess}. It has the status {answer}. If you meant another plant, try giving me its full name', grammar_entry=None)
 
 # I was getting errors when importing my own script so I copied the relevant function here
 def get_plant_dict(plant_name):
