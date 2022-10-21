@@ -15,7 +15,7 @@
         "shelley"
     ],
     "inactive_seconds_allowed": 7200,
-    "long_timeout": 5.0,
+    "long_timeout": 12.0,
     "medium_timeout": 2.0,
     "repeat_questions": true,
     "rerank_amount": 0.2,
