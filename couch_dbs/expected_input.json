@@ -1,7 +1,7 @@
 [
     {
-        "current_plan_item": ["findout(?set([goal(perform(daily_schedule)), goal(perform(bathing_schedule)), goal(resolve(?X.plant_edibility(X)))]))"],
-        "semantic_expression": "request(daily_schedule))",
+        "current_plan_item": "findout(?set([goal(perform(daily_schedule)), goal(perform(bathing_schedule)), goal(resolve(?X.plant_edibility(X)))]))",
+        "semantic_expression": "request(daily_schedule)",
         "alternative": {
             "visual_information": [
                 {
@@ -18,7 +18,7 @@
         }
     },
     {
-        "current_plan_item": ["findout(?set([goal(perform(daily_schedule)), goal(perform(bathing_schedule)), goal(resolve(?X.plant_edibility(X)))]))"],
+        "current_plan_item": "findout(?set([goal(perform(daily_schedule)), goal(perform(bathing_schedule)), goal(resolve(?X.plant_edibility(X)))]))",
         "semantic_expression": "request(bathing_schedule)",
         "alternative": {
             "visual_information": [
@@ -36,7 +36,7 @@
         }
     },
     {
-        "current_plan_item": ["findout(?set([goal(perform(daily_schedule)), goal(perform(bathing_schedule)), goal(resolve(?X.plant_edibility(X)))]))"],
+        "current_plan_item": "findout(?set([goal(perform(daily_schedule)), goal(perform(bathing_schedule)), goal(resolve(?X.plant_edibility(X)))]))",
         "semantic_expression": "ask(?X.plant_edibility(X))",
         "alternative": {
             "visual_information": [
