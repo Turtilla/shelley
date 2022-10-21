@@ -449,6 +449,12 @@
     </one-of>
   </individual>
 
+  <individual name="greetings_msg">
+    <one-of>
+      <item>Hi, I am Shelley, your tortoise care assistant. What can I help you with today?</item>
+    </one-of>
+  </individual>
+
   <!--system questions-->
   <question speaker="system" predicate="wh_plant" type="wh_question">
     what plant do you want to know about

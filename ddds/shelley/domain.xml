@@ -4,7 +4,9 @@
   schedule and edibility first-->
   <goal type="perform" action="top">
     <plan>
-      <forget_all/>
+      <inform>
+        <proposition predicate="greetings" value="greetings_msg"/>
+      </inform>
       <findout type="alt_question">
         <alt>
           <perform action="daily_schedule"/>
