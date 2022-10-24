@@ -26,6 +26,7 @@
     <plan>
       <findout type="wh_question" predicate="wh_plant"/>
       <invoke_service_query type="wh_question" predicate="plant_edibility"/>
+      <forget predicate="wh_plant"/>
     </plan>
   </goal>
 
@@ -158,6 +159,7 @@
   <!--walking outside or inside-->
   <goal type="resolve" question_type="wh_question" predicate="walking">
     <plan>
+      <forget predicate="location"/>
       <findout type="wh_question" predicate="location"/>
       <if>
         <is_private_belief_or_shared_commitment predicate="location" value="inside"/>
