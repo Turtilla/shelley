@@ -409,7 +409,7 @@
 
   <individual name="amount_of_food">
     <one-of>
-      <item>try to fill the food bowl to the brim, but without squishing down the food. you can see the following day how much of the food was left and adjust accordingly. as for the water, fill the water bowl to the brim.</item>
+      <item>try to fill the food bowl to the brim, but without squishing down the food. you can see the following day how much of the food was left and adjust accordingly. as for the water, fill the water bowl to the brim</item>
     </one-of>
   </individual>
 
