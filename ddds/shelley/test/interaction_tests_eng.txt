@@ -1,2 +1,64 @@
---- main menu
-S> What would you like to do?
+--- dialogue 1, part 1
+S> Hi, I am Shelley, your tortoise care assistant. What can I help you with today?
+U>
+S> Do you want to know the daily schedule, know the bathing schedule or know plant edibility?
+U> What do I feed?
+S> Tortoises mostly eat grass and weeds, plants that would not be very nutritious to humans, like dandelions or clover. if you are unsure if a tortoise can eat a certain plant, you can always ask me.
+
+--- dialogue 1, part 2
+S> Hi, I am Shelley, your tortoise care assistant. What can I help you with today?
+U>
+S> Do you want to know the daily schedule, know the bathing schedule or know plant edibility?
+U> When do I feed him?
+S> You should feed the tortoise in the morning.
+
+--- dialogue 1, part 3
+S> Hi, I am Shelley, your tortoise care assistant. What can I help you with today?
+U>
+S> Do you want to know the daily schedule, know the bathing schedule or know plant edibility?
+U> What is the daily schedule?
+S> First things first: make sure that both the UV lamp and the heat lamp are on.
+U> Okay done.
+S> Next, pick out the leftover food from the terrarium to prevent it from going bad. Make sure to also take out poop if you see any.
+U> Done.
+S> Take out the food and water bowls and clean them.
+U> How do I do that?
+S> Make sure that the bowls are clean; usually a thorough rinse with water is enough, but if necessary, use a dish brush and a gentle, unscented detergent.
+U> Done.
+S> Awesome!
+U>
+S> Now refill the dishes with food and water and put them back in the terrarium.
+U> Done.
+S> Before you're done, you need to sprinkle some calcium powder or pellets over the tortoise's food, depending on the weekly schedule of calcium on Mondays, pellets on all the other days.
+U> How?
+S> Let's see, what day is it today?
+U> Tuesday.
+S> The jar with pellets should be by the terrarium. Sprinkle about a teaspoonfull on the food. If you want, you can moisten them a bit and mush them up before you do that, but it is not necessary.
+U> Done.
+S> Gotcha!
+U>
+S> Returning to know the daily schedule. Nice! remember to repeat the same steps every day to keep your tortoise happy.
+U>
+S> Returning to main menu. Do you want to know the daily schedule, know the bathing schedule or know plant edibility?
+U> How much do I feed it?
+S> Try to fill the food bowl to the brim, but without squishing down the food. you can see the following day how much of the food was left and adjust accordingly. as for the water, fill the water bowl to the brim.
+
+--- dialogue 1, part 4
+S> Hi, I am Shelley, your tortoise care assistant. What can I help you with today?
+U>
+S> Do you want to know the daily schedule, know the bathing schedule or know plant edibility?
+U> How is he bathed?
+S> Baths are usually given on Saturdays. First you will need to get a large container that the tortoise cannot get out of and fill it with a bit of lukewarmwater.
+U> Okay done.
+S> Next gently place the tortoise in the water and pour some of the water over its shell. Leave the tortoise for a few minutes, but keep an eye out on it.
+U> How?
+S> Always use both of your hands to carry the tortoise, and provide support for its tummy. It might not be happy in the water, but the bath is important. Make sure that the tortoise has no problems keeping its head up above the water. It's okay if it drinks some of it. It is also fine to leave it there for a few minutes.
+U> Okay, done.
+S> Righty-o!
+U>
+S> In the meantime, make sure that the soil is evenly spread in the terrarium and that the decorations are in their right place. You can also clean the glass using an aquarium cleaning spray.
+U> Done.
+S> Now you should take a towel, take the tortoise out of the bath, and gently dry it, checking if its healthy at the same time.
+U> Done.
+S> Finally, gently place the tortoise back in its terrarium. Then pour out the bath water and tidy everything else up.
+U> Done.
