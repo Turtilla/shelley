@@ -24,9 +24,9 @@
   <!--resolve if a plant is edible; make a function to get the list of possible plants!!!-->
   <goal type="resolve" question_type="wh_question" predicate="plant_edibility">
     <plan>
+      <forget predicate="wh_plant"/>
       <findout type="wh_question" predicate="wh_plant"/>
       <invoke_service_query type="wh_question" predicate="plant_edibility"/>
-      <forget predicate="wh_plant"/>
     </plan>
   </goal>
 
@@ -284,6 +284,15 @@
     <plan>
       <inform>
         <proposition predicate="help" value="help_msg"/>
+      </inform>
+    </plan>
+  </goal>
+
+  <!--when to feed-->
+  <goal type="resolve" question_type="wh_question" predicate="feeding_time">
+    <plan>
+      <inform>
+        <proposition predicate="feeding_time" value="when_to_feed"/>
       </inform>
     </plan>
   </goal>
