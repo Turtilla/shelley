@@ -51,6 +51,7 @@
 <predicate name="holding" sort="question_answer"/>
 <predicate name="schedule" sort="question_answer"/>
 <predicate name="help" sort="question_answer"/>
+<predicate name="feeding_time" sort="question_answer"/>
 
 <!--predicate name="greetings" sort="question_answer"/-->
 
@@ -99,6 +100,7 @@
 <individual name="monday_schedule" sort="question_answer"/>
 <individual name="other_schedule" sort="question_answer"/>
 <individual name="help_msg" sort="question_answer"/>
+<individual name="when_to_feed" sort="question_answer"/>
 
 <!--individual name="greetings_msg" sort="question_answer"/-->
 
