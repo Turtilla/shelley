@@ -169,6 +169,9 @@
       <item>how much should I feed to the tortoise</item>
       <item>how much should I feed to my tortoise</item>
       <item>how much food</item>
+      <item>how much do I feed it</item>
+      <item>how much should I feed it</item>
+      <item>how much can I feed it</item>
     </one-of>
   </question>
 
@@ -263,6 +266,21 @@
       <item>what do you do</item>
       <item>what can you tell me</item>
       <item>what questions can you answer</item>
+    </one-of>
+  </question>
+
+  <question speaker="user" predicate="feeding_time" type="wh_question">
+    <one-of>
+      <item>when do I feed it</item>
+      <item>when do I give food</item>
+      <item>when do I feed the tortoise</item>
+      <item>when do I feed my tortoise</item>
+      <item>when should a tortoise be fed</item>
+      <item>when should the tortoise be fed</item>
+      <item>when should I feed it</item>
+      <item>when should I give food</item>
+      <item>when should I feed the tortoise</item>
+      <item>when should I feed my tortoise</item>
     </one-of>
   </question>
 
@@ -391,7 +409,7 @@
 
   <individual name="amount_of_food">
     <one-of>
-      <item>try to fill the food bowl to the brim, but without squishing down the food. you can see the following day how much of the food was left and adjust accordingly</item>
+      <item>try to fill the food bowl to the brim, but without squishing down the food. you can see the following day how much of the food was left and adjust accordingly. as for the water, fill the water bowl to the brim.</item>
     </one-of>
   </individual>
 
@@ -446,6 +464,12 @@
   <individual name="help_msg">
     <one-of>
       <item>I can tell you about the daily routine, about bathing a tortoise, about the edibility of different plants, and answer some questions that might pop into your head on the way. when I am giving you instructions step by step, please say something like done when you've completed a step so that I know when I can continue. If I don't understand what you said, try to repeat it as a full sentence. There is a chance I cannot reply to what you said though, as I sadly do not know everything. I hope I will be of help either way!</item>
+    </one-of>
+  </individual>
+
+  <individual name="when_to_feed">
+    <one-of>
+      <item>you should feed the tortoise in the morning</item>
     </one-of>
   </individual>
 
