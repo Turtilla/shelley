@@ -1,0 +1,27 @@
+DIALOGUE 1
+S: <req:main_tasks>In order to take proper care of the tortoise you will have to feed it and make sure it is okay.</req>
+T: <icm:acc*chk:Q>Oh, that’s it?</icm> (...) <ask:food_type>What do I feed?</ask>
+S: <icm:und*pos:Content>You want to know what the tortoise eats.</icm> <ans:food_type> It should be fed a variety of plants such as grasses and weeds. The tortoise’s owner has left some of the food it is usually fed in the fridge.</ans>
+T: <ask:feeding_times>When do I feed him?</ask>
+S: <icm:acc*pos>Okay, </icm> <ans:feeding_times> you should feed it in the morning. </ans> 
+T: <ask:bowl_cleaning>How do I clean the bowls?</ask>
+S: <icm:acc*pos>Right,</icm> <ans:bowl_cleaning> you should only use non-invasive, non-scented detergents around the tortoise. I recommend using a brush and warm water, and, if necessary, natural soap. </ans> <icm:reraise>Let’s get back to the topic of feeding.</icm> <ans:supplements_type>You should supplement the tortoise’s food with calcium or pellets, depending on the day.</ans>
+T: <ask:supplement_schedule>What day?</ask>
+S: <icm:und*pos:Content>You want to know the schedule for food supplements.<icm> <icm:loadplan>Let’s see,</icm> <ans:supplement_schedule>the tortoise should receive calcium on Mondays and pellets on the other days.</ans>
+T: <ask:supplement_location>Where is… uh, these things?</ask>
+S: <icm:und*pos:Content>You’re asking about the location of food supplements.</icm> <ans:supplement_location>The pellets are stored in a plastic container and the calcium is in a ziploc bag. They are both on a shelf under the terrarium.</ans>
+T: <ask:food_quantity>How much do I feed him?</ask>
+S: <icm:acc*pos>Right,</icm> <ans:food_quantity>the tortoise should get a handful of food that includes a few different plant species. If you notice that there are no leftovers the next day, you can try feeding the tortoise more.<ans:food_quantity> <ans:supplement_quantity>When supplementing, use half a teaspoon of calcium or a teaspoon of pellets.</ans>
+T: (silent)
+S: <icm:reraise>Let’s continue with how to take care of the tortoise.</icm><req:bath_schedule>The tortoise should be given a bath every Saturday.</req>
+T: <ask:bath_instructions>How is he bathed?</ask>
+S: <icm:und*pos:Content>Okay, you want more details on the topic of bathing.</icm> <ans:bath_instructions>In the morning you should fill its bathing bowl with water and put it in the terrarium instead of the regular water dish. This bowl and the tortoise will get muddy so you may want to give the tortoise a second bath. In order to do that, fill the plastic box with lukewarm water and let him soak for 10 minutes.</ans>
+T: <ask:water_quantity>How much water?</ask>
+S: <icm:acc*pos>Right,</icm> <ans:water_quantity>the bowl should be filled to the brim. The plastic container should be filled with 2-3cm water. Make sure that the tortoise is not struggling to keep its head above the water. In that case, it is too much water.</ans>
+T: <ask:bath_duration>How long does he bathe?</ask>
+S: <ans:bath_duration>The bath bowl should remain in the terrarium for between 6 and 24 hours. The bath in the plastic container should take about 10 minutes.</ans>
+T: (silent)
+S: <ask:general>Is there anything else that you want to know about caring for the tortoise?<ask>
+T: <icm:acc*neg>No.</icm>
+S: <icm:acc*pos>Okay!</icm>
+

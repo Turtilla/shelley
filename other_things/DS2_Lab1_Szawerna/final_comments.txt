@@ -1,0 +1,24 @@
+Final notes:
+It does not feel like these dialogues should be the golden standard for my app after all. They seem too much like an informative dialogue, rather than instructional one (it is mostly questions from the users and not much point-by-point information from the system). I will need to prepare an outline of the general information that needs to be given to the user, and then mark where questions (like the ones above) and deviations can occur. For example:
+
+1.	<ans:main_tasks>In order to take proper care of the tortoise you will have to feed it and make sure it is okay.</ans>
+2.	<icm:seq>First</icm> <req:check_condition>you need to check if the tortoise is alright. If you notice anything out of the ordinary, seek professional help.</req>
+	a.	Here the user could ask what is out of ordinary or where to seek help.
+3.	<icm:seq>Then</icm> <req:clean_up>you need to clean up leftovers from the day before and anything that was soiled. Fix any interior decorations that were put out of place</req>
+4.	<icm:seq>Now</icm> <req:dishes>you should clean the food and water bowl.</req>
+	a.	Here the question can be on how to clean the dishes.
+5.	<req:bathe>If today is Saturday, take out the big water bowl for bathing instead of the small one</req>
+	a.	More detailed bathing questions.
+6.	<req:feed>You should fill the water bowl with cold water and the food dish with a variety of greens</req>
+	a.	Here there can be many questions: can tap or sparkling water be used? What kinds of greens? Can the tortoise eat XYZ? Do I need to wash the food? How much food exactly?
+7.	<req:supplements>Depending on the schedule, add calcium or pellets to the food.</req>
+	a.	Here the question can be about the location of these, the schedule, or the dosage. 
+8.	<icm:seq>Now,</icm> <req:give_food>you should carefully place the bowls in the terrarium.</req>
+	a.	There might be a question about the location.
+9.	<icm:seq>Finally,</icm> <req:lamps>check if the UVB and heating lamps are properly working. They should turn on and off on a timer, so simply see if they are lit.</req>
+	a.	Questions like what to do if they are not working properly.
+10.	<ask:other>Do you have any questions?</ask>
+	a.	Anything else that comes to my mind (do I need to walk the tortoise? Can I pet the tortoise? Should I give him any toys?) goes here.
+11.	<thank>Thank you for taking care of the tortoise!</thank>
+
+I am also generally unsure about some of the icms, such as loadplan.

@@ -1,0 +1,44 @@
+DIALOGUE 2
+M: <ask:general_instructions>Uhm, how do I take care of your dog? What do I need to do during the day?</ask>
+S: <ans:general_instructions>To take proper care of the dog throughout the day you will need to walk it and feed it.</ans> 
+M: <ask:number_of_walks>How many walks does he need?</ask>
+S: <ans:number_of_walks>The dog will need around 3 or 4 walks in a day.</ans>
+M: <ask:walk_length>Uhm, how long should they be?</ask>
+S: <icm:loadplan>Let’s see how long the walks should be.</icm> <ans:walk_length>One of the walks should be between 30 minutes and 1 hour. The rest can be shorter than that.</ans>
+M: <ask:long_walk>Which one will it be then? Out of the four ones?</ask> <icm:und*chk>‘Cause I guess they are spread out.</icm>
+S: <icm:acc*pos>Right,</icm> <ans:long_walk>it is usually the morning walk that is the longest.</ans>
+M: <icm:acc*pos>Okay, sure.</icm> <ask:favorite_walks>Uh, does he have any favorite places to go to?</ask>
+S: <icm:loadplan>Let’s see what the dog’s favorite walks are.</icm> <ans:favorite_walks>The best places are ones with access to bodies of water.</ans>
+M: <icm:und*pos:Content>Anything water, okay, sure.</icm> <icm:und*pos:Content>Uhm, so I should walk him and feed him, right?</icm> <ask:feeding_times>Uh, how often do I feed him?</ask>
+S: <icm:reraise>Back on the topic of food.</icm> <ans:feeding_times>The dog should be fed in the morning and at dinner-time.</ans>
+M: <ask:food_details>And how- what and how much?</ask>
+S: <icm:und*pos:Content>You want to know how much food to give to the dog.</icm> <ans:food_details>It should be 2 deciliters of dry dog food and a bit of something tasty as an extra.</ans>
+M: <ask:tasty_details>What constitutes a tasty thing?</ask>
+S: <icm:acc*pos>Right,</icm> <ans:tasty_details>that would be something like ham, wet dog food, or something from your dinner.</ans>
+M: <icm:acc*pos>Okay,</icm> <ask:dangerous_human_foods>is there anything in the human dinner that I should watch out for, not to give him?</ask>
+S: <icm:loadplan>Let’s see what human foods are not suitable for dogs.</icm> <ans:dangerous_human_foods>You should avoid giving the dog onions or spicy food.</ans>
+M: <icm:acc*pos>Okay, so that’s not good for a doggo.</icm> <ask:more_info>Uhm, is there anything else I should keep in mind? Uh, when it comes to taking care of him?</ask> 
+S: <icm:und*pos:Content>Okay, you want to know what other actions may be necessary when taking care of the dog.</icm> <req:shower>You may want to shower it.</req>
+M: <ask:shower_instructions>How do I shower him though?</ask>
+S: <ans:shower_instructions>In order to shower the dog you should put him in the shower enclosure.</ans>
+M: <ask:shampoo>With like, uh, shampoo or?</ask>
+S: <ans:shampoo>When showering the dog you can use shampoo or just water.</shampoo>
+M: <icm:acc*pos>Okay. Uh, sure.</icm> <ask:shower_schedule>When do I need to shower him?</ask>
+S: <icm:acc*pos>Right,</icm> <ans:shower_schedule>the dog should be showered when it is smelly.</ans>
+M: <ask:shower_constantly>So, all the time?</ask>
+S: <ans:shower_constantly>You should not shower the dog all the time. The dog should only be showered when its smell is unpleasant and noticeable.</ans>
+M: <icm:acc*pos>Okay, sure,</icm> <ask:playing>uhm, do I need to play with him or anything like that? Does he have any toys?</ask>
+S: <icm:und*pos:Content>You want to know if you should play with the dog.</icm> <ans:playing>You can play with the dog using his toys.</ans>
+M: <ask:favorite_toys>What toys does he like?</ask>
+S: <ans:favorite_toys>The dog’s favorite toys include ones that squeak-
+M: <icm:acc*pos>Okay.<icm>
+S: Or reward candy.</ans>
+M: <icm:acc*pos>Okay.</icm> <ask:candy_type>You mean like dog candy?</ask>
+S: <icm:acc*pos>Right,</icm> <ans:candy_type>human candy is not suitable for dogs. You should only feed dog candy to the dog.</ans>
+M: <ans:more_questions>Uhm, okay, I think that’s all the questions.<ans> <ask:more_tips>Or do you have any final tips?</ask>
+S: <icm:loadplan>Let’s see what steps we have left.</icm> <req:water>You should make sure that the dog has access to fresh water.</req>
+M: <ask:last_step>Is that your final tip?</ask>
+S: <ans:last_step> This is the final step.</ans>
+M: <icm:acc*pos>Yeah. Uh, okay, I will do that.</icm> <ask:water_changing>How often do I need to change it?</ask>
+S: <ans:water_changing>Fresh water should be given with every meal.</ans>
+M: <icm:acc*pos>Okay, so, twice a day, sure, I will take the best care of your dog I can. Which is probably not very good. But, I will do my best.</icm>

@@ -1,0 +1,26 @@
+DIALOGUE 1
+S: In order to take proper care of the tortoise you will have to feed it and make sure it is okay. (SYNTAX)
+T: Oh, that’s it? (...) What do I feed?
+S: You want to know what the tortoise eats. (CONFIRMATION) It should be fed a variety of plants such as grasses and weeds. The tortoise’s owner has left some of the food it is usually fed in the fridge. (SYNTAX)
+T: When do I feed him?
+S: Okay, you should feed it in the morning. (CONFIRMATION, SYNTAX, RELEVANCE)
+T: How do I clean the bowls?
+S: Right, you should only use non-invasive, non-scented detergents around the tortoise. I recommend using a brush and warm water, and, if necessary, natural soap. (CONFIRMATION, SYNTAX). Let’s get back to the topic of feeding. (TURN-KEEPING? or TURNTAKING 3) You should supplement the tortoise’s food with calcium or pellets, depending on the day. (SYNTAX)
+T: What day?
+S: You want to know the schedule for food supplements. Let’s see, the tortoise should receive calcium on Mondays and pellets on the other days. (CONFIRMATION, SYNTAX).
+T: Where is… uh, these things?
+S: You’re asking about the location of food supplements. (CONFIRMATION) The pellets are stored in a plastic container and the calcium is in a ziploc bag. They are both on a shelf under the terrarium. (SYNTAX)
+T: How much do I feed him?
+S: Right, the tortoise should get a handful of food that includes a few different plant species. If you notice that there are no leftovers the next day, you can try feeding the tortoise more. When supplementing, use half a teaspoon of calcium or a teaspoon of pellets. (CONFIRMATION, SERIOUSNESS, SYNTAX)
+T: (silent)
+S: Let’s continue with how to take care of the tortoise. (TURNTAKING 3) The tortoise should be given a bath every Saturday. (SYNTAX)
+T: How is he bathed?
+S: Okay, you want more details on the topic of bathing. (CONFIRMATION) In the morning you should fill its bathing bowl with water and put it in the terrarium instead of the regular water dish. This bowl and the tortoise will get muddy so you may want to give the tortoise a second bath. In order to do that, fill the plastic box with lukewarm water and let him soak for 10 minutes. (SYNTAX, TURN-TAKING 2)
+T: How much water?
+S: Right, the bowl should be filled to the brim. The plastic container should be filled with 2-3cm water. Make sure that the tortoise is not struggling to keep its head above the water. In that case, it is too much water. (CONFIRMATION, RELEVANCE, SYNTAX)
+T: How long does he bathe?
+S:The bath bowl should remain in the terrarium for between 6 and 24 hours. The bath in the plastic container should take about 10 minutes.
+T: (silent)
+S: Is there anything else that you want to know about caring for the tortoise? (TURNTAKING 3, SYNTAX)
+T: No.
+S: Okay! (CONFIRMATION)

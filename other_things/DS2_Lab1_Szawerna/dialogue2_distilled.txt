@@ -1,0 +1,45 @@
+DIALOGUE 2
+M: Uhm, how do I take care of your dog? What do I need to do during the day?
+S: To take proper care of the dog throughout the day you will need to walk it and feed it. (CONFIRMATION, SYNTAX)
+M: How many walks does he need?
+S: The dog will need around 3 or 4 walks in a day. (SYNTAX, SERIOUSNESS)
+M: Uhm, how long should they be? (removing the chuckle as it is a response to something that is not said by the system)
+S: Let’s see how long the walks should be. One of the walks should be between 30 minutes and 1 hour. The rest can be shorter than that. (CONFIRMATION, SYNTAX)
+M: Which one will it be then? Out of the four ones? ‘Cause I guess they are spread out.
+S: Right, it is usually the morning walk that is the longest. (CONFIRMATION, SYNTAX)
+M: Okay, sure. Uh, does he have any favorite places to go to?
+S: Let’s see what the dog’s favorite walks are. The best places are ones with access to bodies of water. (CONFIRMATION, SYNTAX)
+M: Anything water, okay, sure. Uhm, so I should walk him and feed him, right? Uh, how often do I feed him?
+S: Back on the topic of food. The dog should be fed in the morning and at dinner-time. (CONFIRMATION, SYNTAX)
+M: And how- what and how much?
+S: You want to know how much food to give to the dog. It should be 2 deciliters of dry dog food and a bit of something tasty as an extra. (CONFIRMATION, SYNTAX)
+M: What constitutes a tasty thing?
+S: Right, that would be something like ham, wet dog food, or something from your dinner. (CONFIRMATION, SYNTAX)
+M: Okay, is there anything in the human dinner that I should watch out for, not to give him?
+S: Let’s see what human foods are not suitable for dogs. You should avoid giving the dog onions or spicy food. (CONFIRMATION, SYNTAX)
+M: Okay, so that’s not good for a doggo. Uhm, is there anything else I should keep in mind? Uh, when it comes to taking care of him? (...) 
+S: Okay, you want to know what other actions may be necessary when taking care of the dog. You may want to shower it. (CONFIRMATION, SYNTAX)
+M: How do I shower him though?
+S: In order to shower the dog you should put him in the shower enclosure. (TURNTAKING 2)
+M: With like, uh, shampoo or?
+S: When showering the dog you can use shampoo or just water. (SYNTAX)
+M: Okay. Uh, sure. When do I need to shower him?
+S: Right, the dog should be showered when it is smelly. (CONFIRMATION, SYNTAX)
+M: So, all the time?
+S: You should not shower the dog all the time. The dog should only be showered when its smell is unpleasant and noticeable. (SYNTAX, REFORMULATION, SERIOUSNESS)
+(The following few lines were removed both from the user and the system as they were not following the principle of seriousness)
+M: Okay, sure, uhm, do I need to play with him or anything like that? Does he have any toys?
+S: You want to know if you should play with the dog. You can play with the dog using his toys. (CONFIRMATION, SYNTAX)
+M: What toys does he like?
+S: The dog’s favorite toys include ones that squeak- (SYNTAX, FEEDBACK 2)
+M: Okay.
+S: Or reward candy.
+M: Okay. You mean like dog candy?
+S: Right, human candy is not suitable for dogs. You should only feed dog candy to the dog. (CONFIRMATION, SYNTAX)
+M: Uhm, okay, I think that’s all the questions. Or do you have any final tips?
+S: Let’s see what steps we have left. You should make sure that the dog has access to fresh water. (SYNTAX)
+M: Is that your final tip?
+S: This is the final step. (RELEVANCE)
+M: Yeah. Uh, okay, I will do that. How often do I need to change it?
+S: Fresh water should be given with every meal. (SYNTAX)
+M: Okay, so, twice a day, sure, I will take the best care of your dog I can. Which is probably not very good. But, I will do my best.
